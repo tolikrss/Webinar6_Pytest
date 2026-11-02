@@ -1,0 +1,3 @@
+tests/test_sensor.py::test_temperature_is_valid_json PASSED              [ 50%]
+tests/test_firmware_cli.py::test_every_command_returns_one_json_line[GET TEMP] PASSED [100%]
+============================== 2 passed in 0.52s ===============================

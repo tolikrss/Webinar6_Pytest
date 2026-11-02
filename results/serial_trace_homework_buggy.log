@@ -1,0 +1,5366 @@
+[       0 ms] TX {"status":"READY"}
+[       0 ms] TX 
+[   17366 ms] RX SET PWM 0
+
+[   17366 ms] GPIO2 duty=0
+[   17366 ms] TX {"status":"OK","pwm":0}
+[   17368 ms] RX RESET
+
+[   17368 ms] TX {"status":"OK","reset":true}
+[   17368 ms] TX 
+[   17571 ms] RX SET PWM 1
+
+[   17571 ms] GPIO2 duty=2
+[   17571 ms] TX {"status":"OK","pwm":1}
+[   17572 ms] RX RESET
+
+[   17572 ms] TX {"status":"OK","reset":true}
+[   17572 ms] TX 
+[   17774 ms] RX SET PWM 50
+
+[   17774 ms] GPIO2 duty=127
+[   17774 ms] TX {"status":"OK","pwm":50}
+[   17775 ms] RX RESET
+
+[   17775 ms] TX {"status":"OK","reset":true}
+[   17775 ms] TX 
+[   18011 ms] RX SET PWM 99
+
+[   18011 ms] GPIO2 duty=252
+[   18011 ms] TX {"status":"OK","pwm":99}
+[   18019 ms] RX RESET
+
+[   18019 ms] TX {"status":"OK","reset":true}
+[   18019 ms] TX 
+[   18222 ms] RX SET PWM 100
+
+[   18222 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   18222 ms] TX 
+[   18233 ms] RX RESET
+
+[   18233 ms] TX {"status":"OK","reset":true}
+[   18233 ms] TX 
+[   18435 ms] RX SET PWM -1
+
+[   18435 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   18435 ms] TX 
+[   18436 ms] RX RESET
+
+[   18436 ms] TX {"status":"OK","reset":true}
+[   18436 ms] TX 
+[   18638 ms] RX SET PWM 101
+
+[   18638 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   18638 ms] TX 
+[   18639 ms] RX RESET
+
+[   18639 ms] TX {"status":"OK","reset":true}
+[   18639 ms] TX 
+[   18843 ms] RX SET PWM 999
+
+[   18843 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   18843 ms] TX 
+[   18843 ms] RX RESET
+
+[   18843 ms] TX {"status":"OK","reset":true}
+[   18843 ms] TX 
+[   19044 ms] RX SET LED OFF
+
+[   19044 ms] GPIO2 duty=0
+[   19044 ms] TX {"status":"OK","led":false}
+[   19044 ms] TX 
+[   19045 ms] RX SET LED ON
+
+[   19045 ms] GPIO2 duty=255
+[   19045 ms] TX {"status":"OK","led":true}
+[   19045 ms] TX 
+[   19046 ms] RX STATUS
+
+[   19046 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   19047 ms] RX SET LED OFF
+
+[   19047 ms] GPIO2 duty=0
+[   19047 ms] TX {"status":"OK","led":false}
+[   19047 ms] TX 
+[   19047 ms] RX RESET
+
+[   19047 ms] TX {"status":"OK","reset":true}
+[   19047 ms] TX 
+[   19249 ms] RX SET LED OFF
+
+[   19249 ms] GPIO2 duty=0
+[   19249 ms] TX {"status":"OK","led":false}
+[   19249 ms] TX 
+[   19250 ms] RX SET LED ON
+
+[   19250 ms] GPIO2 duty=255
+[   19250 ms] TX {"status":"OK","led":true}
+[   19250 ms] TX 
+[   19250 ms] RX SET LED OFF
+
+[   19250 ms] GPIO2 duty=0
+[   19250 ms] TX {"status":"OK","led":false}
+[   19250 ms] TX 
+[   19251 ms] RX STATUS
+
+[   19251 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   19252 ms] RX SET LED OFF
+
+[   19252 ms] GPIO2 duty=0
+[   19252 ms] TX {"status":"OK","led":false}
+[   19252 ms] TX 
+[   19252 ms] RX RESET
+
+[   19252 ms] TX {"status":"OK","reset":true}
+[   19252 ms] TX 
+[   19454 ms] RX SET LED OFF
+
+[   19454 ms] GPIO2 duty=0
+[   19454 ms] TX {"status":"OK","led":false}
+[   19454 ms] TX 
+[   19455 ms] RX SET PWM 25
+
+[   19455 ms] GPIO2 duty=63
+[   19455 ms] TX {"status":"OK","pwm":25}
+[   19455 ms] RX SET PWM 0
+
+[   19455 ms] GPIO2 duty=0
+[   19455 ms] TX {"status":"OK","pwm":0}
+[   19455 ms] RX STATUS
+
+[   19455 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   19455 ms] RX SET LED OFF
+
+[   19455 ms] GPIO2 duty=0
+[   19455 ms] TX {"status":"OK","led":false}
+[   19455 ms] TX 
+[   19456 ms] RX RESET
+
+[   19456 ms] TX {"status":"OK","reset":true}
+[   19456 ms] TX 
+[   19657 ms] RX SET LED OFF
+
+[   19657 ms] GPIO2 duty=0
+[   19657 ms] TX {"status":"OK","led":false}
+[   19657 ms] TX 
+[   19658 ms] RX SET PWM 25
+
+[   19658 ms] GPIO2 duty=63
+[   19658 ms] TX {"status":"OK","pwm":25}
+[   19658 ms] RX SET PWM 1
+
+[   19658 ms] GPIO2 duty=2
+[   19658 ms] TX {"status":"OK","pwm":1}
+[   19658 ms] RX STATUS
+
+[   19658 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   19659 ms] RX SET LED OFF
+
+[   19659 ms] GPIO2 duty=0
+[   19659 ms] TX {"status":"OK","led":false}
+[   19659 ms] TX 
+[   19660 ms] RX RESET
+
+[   19660 ms] TX {"status":"OK","reset":true}
+[   19660 ms] TX 
+[   19862 ms] RX SET LED OFF
+
+[   19862 ms] GPIO2 duty=0
+[   19862 ms] TX {"status":"OK","led":false}
+[   19862 ms] TX 
+[   19864 ms] RX SET PWM 25
+
+[   19864 ms] GPIO2 duty=63
+[   19864 ms] TX {"status":"OK","pwm":25}
+[   19865 ms] RX SET PWM 50
+
+[   19865 ms] GPIO2 duty=127
+[   19865 ms] TX {"status":"OK","pwm":50}
+[   19865 ms] RX STATUS
+
+[   19865 ms] TX {"status":"OK","led":true,"pwm":127,"heap":287512}
+[   19867 ms] RX SET LED OFF
+
+[   19867 ms] GPIO2 duty=0
+[   19867 ms] TX {"status":"OK","led":false}
+[   19867 ms] TX 
+[   19867 ms] RX RESET
+
+[   19867 ms] TX {"status":"OK","reset":true}
+[   19868 ms] TX 
+[   20068 ms] RX SET LED OFF
+
+[   20068 ms] GPIO2 duty=0
+[   20068 ms] TX {"status":"OK","led":false}
+[   20068 ms] TX 
+[   20069 ms] RX SET PWM 25
+
+[   20069 ms] GPIO2 duty=63
+[   20069 ms] TX {"status":"OK","pwm":25}
+[   20069 ms] RX SET PWM 99
+
+[   20069 ms] GPIO2 duty=252
+[   20069 ms] TX {"status":"OK","pwm":99}
+[   20070 ms] RX STATUS
+
+[   20070 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   20070 ms] RX SET LED OFF
+
+[   20070 ms] GPIO2 duty=0
+[   20070 ms] TX {"status":"OK","led":false}
+[   20070 ms] TX 
+[   20070 ms] RX RESET
+
+[   20070 ms] TX {"status":"OK","reset":true}
+[   20070 ms] TX 
+[   20271 ms] RX SET LED OFF
+
+[   20272 ms] GPIO2 duty=0
+[   20272 ms] TX {"status":"OK","led":false}
+[   20272 ms] TX 
+[   20272 ms] RX PING
+
+[   20272 ms] TX {"status":"OK","command":"PING"}
+[   20272 ms] TX 
+[   20373 ms] RX SET LED OFF
+
+[   20374 ms] GPIO2 duty=0
+[   20374 ms] TX {"status":"OK","led":false}
+[   20374 ms] TX 
+[   20374 ms] RX RESET
+
+[   20374 ms] TX {"status":"OK","reset":true}
+[   20374 ms] TX 
+[   20575 ms] RX SET LED OFF
+
+[   20575 ms] GPIO2 duty=0
+[   20575 ms] TX {"status":"OK","led":false}
+[   20575 ms] TX 
+[   20576 ms] RX STATUS
+
+[   20576 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   20678 ms] RX SET LED OFF
+
+[   20678 ms] GPIO2 duty=0
+[   20678 ms] TX {"status":"OK","led":false}
+[   20678 ms] TX 
+[   20679 ms] RX RESET
+
+[   20679 ms] TX {"status":"OK","reset":true}
+[   20679 ms] TX 
+[   20881 ms] RX SET LED OFF
+
+[   20881 ms] GPIO2 duty=0
+[   20881 ms] TX {"status":"OK","led":false}
+[   20881 ms] TX 
+[   20882 ms] RX GET TEMP
+
+[   20882 ms] TX {"status":"OK","temperature":24.5
+[   20899 ms] RX SET LED OFF
+
+[   20899 ms] GPIO2 duty=0
+[   20899 ms] TX {"status":"OK","led":false}
+[   20899 ms] TX 
+[   20899 ms] RX RESET
+
+[   20899 ms] TX {"status":"OK","reset":true}
+[   20899 ms] TX 
+[   21100 ms] RX SET LED OFF
+
+[   21100 ms] GPIO2 duty=0
+[   21100 ms] TX {"status":"OK","led":false}
+[   21100 ms] TX 
+[   21101 ms] RX SET LED ON
+
+[   21101 ms] GPIO2 duty=255
+[   21101 ms] TX {"status":"OK","led":true}
+[   21101 ms] TX 
+[   21204 ms] RX SET LED OFF
+
+[   21204 ms] GPIO2 duty=0
+[   21204 ms] TX {"status":"OK","led":false}
+[   21204 ms] TX 
+[   21209 ms] RX RESET
+
+[   21209 ms] TX {"status":"OK","reset":true}
+[   21209 ms] TX 
+[   21410 ms] RX SET LED OFF
+
+[   21410 ms] GPIO2 duty=0
+[   21410 ms] TX {"status":"OK","led":false}
+[   21410 ms] TX 
+[   21412 ms] RX SET LED OFF
+
+[   21412 ms] GPIO2 duty=0
+[   21412 ms] TX {"status":"OK","led":false}
+[   21412 ms] TX 
+[   21513 ms] RX SET LED OFF
+
+[   21513 ms] GPIO2 duty=0
+[   21513 ms] TX {"status":"OK","led":false}
+[   21513 ms] TX 
+[   21514 ms] RX RESET
+
+[   21514 ms] TX {"status":"OK","reset":true}
+[   21514 ms] TX 
+[   21715 ms] RX SET LED OFF
+
+[   21715 ms] GPIO2 duty=0
+[   21715 ms] TX {"status":"OK","led":false}
+[   21715 ms] TX 
+[   21716 ms] RX SET PWM 10
+
+[   21716 ms] GPIO2 duty=25
+[   21716 ms] TX {"status":"OK","pwm":10}
+[   21817 ms] RX SET LED OFF
+
+[   21817 ms] GPIO2 duty=0
+[   21817 ms] TX {"status":"OK","led":false}
+[   21817 ms] TX 
+[   21818 ms] RX RESET
+
+[   21818 ms] TX {"status":"OK","reset":true}
+[   21818 ms] TX 
+[   22019 ms] RX SET LED OFF
+
+[   22019 ms] GPIO2 duty=0
+[   22019 ms] TX {"status":"OK","led":false}
+[   22019 ms] TX 
+[   22020 ms] RX RESET
+
+[   22020 ms] TX {"status":"OK","reset":true}
+[   22020 ms] TX 
+[   22121 ms] RX SET LED OFF
+
+[   22121 ms] GPIO2 duty=0
+[   22121 ms] TX {"status":"OK","led":false}
+[   22121 ms] TX 
+[   22122 ms] RX RESET
+
+[   22122 ms] TX {"status":"OK","reset":true}
+[   22122 ms] TX 
+[   22323 ms] RX SET LED OFF
+
+[   22323 ms] GPIO2 duty=0
+[   22323 ms] TX {"status":"OK","led":false}
+[   22323 ms] TX 
+[   22324 ms] RX HELLO
+
+[   22324 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   22324 ms] TX 
+[   22425 ms] RX SET LED OFF
+
+[   22425 ms] GPIO2 duty=0
+[   22425 ms] TX {"status":"OK","led":false}
+[   22425 ms] TX 
+[   22426 ms] RX RESET
+
+[   22426 ms] TX {"status":"OK","reset":true}
+[   22426 ms] TX 
+[   22627 ms] RX SET LED OFF
+
+[   22627 ms] GPIO2 duty=0
+[   22627 ms] TX {"status":"OK","led":false}
+[   22627 ms] TX 
+[   22628 ms] RX SET LED ON
+
+[   22628 ms] GPIO2 duty=255
+[   22628 ms] TX {"status":"OK","led":true}
+[   22628 ms] TX 
+[   22629 ms] RX RESET
+
+[   22629 ms] TX {"status":"OK","reset":true}
+[   22629 ms] TX 
+[   22629 ms] RX STATUS
+
+[   22629 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   22635 ms] RX SET LED OFF
+
+[   22635 ms] GPIO2 duty=0
+[   22635 ms] TX {"status":"OK","led":false}
+[   22635 ms] TX 
+[   22636 ms] RX RESET
+
+[   22636 ms] TX {"status":"OK","reset":true}
+[   22636 ms] TX 
+[   22837 ms] RX SET LED OFF
+
+[   22837 ms] GPIO2 duty=0
+[   22837 ms] TX {"status":"OK","led":false}
+[   22837 ms] TX 
+[   22838 ms] RX SET PWM 1
+
+[   22838 ms] GPIO2 duty=2
+[   22838 ms] TX {"status":"OK","pwm":1}
+[   22838 ms] RX RESET
+
+[   22838 ms] TX {"status":"OK","reset":true}
+[   22839 ms] TX 
+[   22839 ms] RX STATUS
+
+[   22839 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   22849 ms] RX SET LED OFF
+
+[   22849 ms] GPIO2 duty=0
+[   22849 ms] TX {"status":"OK","led":false}
+[   22849 ms] TX 
+[   22849 ms] RX RESET
+
+[   22849 ms] TX {"status":"OK","reset":true}
+[   22849 ms] TX 
+[   23050 ms] RX SET LED OFF
+
+[   23050 ms] GPIO2 duty=0
+[   23050 ms] TX {"status":"OK","led":false}
+[   23050 ms] TX 
+[   23051 ms] RX SET PWM 50
+
+[   23051 ms] GPIO2 duty=127
+[   23051 ms] TX {"status":"OK","pwm":50}
+[   23051 ms] RX RESET
+
+[   23051 ms] TX {"status":"OK","reset":true}
+[   23051 ms] TX 
+[   23051 ms] RX STATUS
+
+[   23051 ms] TX {"status":"OK","led":true,"pwm":127,"heap":287512}
+[   23060 ms] RX SET LED OFF
+
+[   23060 ms] GPIO2 duty=0
+[   23060 ms] TX {"status":"OK","led":false}
+[   23060 ms] TX 
+[   23060 ms] RX RESET
+
+[   23060 ms] TX {"status":"OK","reset":true}
+[   23060 ms] TX 
+[   23262 ms] RX SET LED OFF
+
+[   23262 ms] GPIO2 duty=0
+[   23262 ms] TX {"status":"OK","led":false}
+[   23262 ms] TX 
+[   23262 ms] RX SET PWM 99
+
+[   23262 ms] GPIO2 duty=252
+[   23262 ms] TX {"status":"OK","pwm":99}
+[   23263 ms] RX RESET
+
+[   23263 ms] TX {"status":"OK","reset":true}
+[   23263 ms] TX 
+[   23263 ms] RX STATUS
+
+[   23263 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   23268 ms] RX SET LED OFF
+
+[   23268 ms] GPIO2 duty=0
+[   23268 ms] TX {"status":"OK","led":false}
+[   23268 ms] TX 
+[   23269 ms] RX RESET
+
+[   23269 ms] TX {"status":"OK","reset":true}
+[   23269 ms] TX 
+[   23470 ms] RX SET LED OFF
+
+[   23470 ms] GPIO2 duty=0
+[   23470 ms] TX {"status":"OK","led":false}
+[   23470 ms] TX 
+[   23471 ms] RX SET LED OFF
+
+[   23471 ms] GPIO2 duty=0
+[   23471 ms] TX {"status":"OK","led":false}
+[   23471 ms] TX 
+[   23471 ms] RX RESET
+
+[   23471 ms] TX {"status":"OK","reset":true}
+[   23471 ms] TX 
+[   23472 ms] RX STATUS
+
+[   23472 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   23473 ms] RX SET LED OFF
+
+[   23473 ms] GPIO2 duty=0
+[   23473 ms] TX {"status":"OK","led":false}
+[   23473 ms] TX 
+[   23473 ms] RX RESET
+
+[   23473 ms] TX {"status":"OK","reset":true}
+[   23473 ms] TX 
+[   23674 ms] RX SET LED OFF
+
+[   23674 ms] GPIO2 duty=0
+[   23674 ms] TX {"status":"OK","led":false}
+[   23674 ms] TX 
+[   23676 ms] RX SET PWM 25
+
+[   23676 ms] GPIO2 duty=63
+[   23676 ms] TX {"status":"OK","pwm":25}
+[   23676 ms] RX STATUS
+
+[   23676 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   23676 ms] RX SET PWM abc
+
+[   23676 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   23676 ms] TX 
+[   23676 ms] RX STATUS
+
+[   23676 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   23677 ms] RX SET LED OFF
+
+[   23677 ms] GPIO2 duty=0
+[   23677 ms] TX {"status":"OK","led":false}
+[   23677 ms] TX 
+[   23677 ms] RX RESET
+
+[   23677 ms] TX {"status":"OK","reset":true}
+[   23677 ms] TX 
+[   23879 ms] RX SET LED OFF
+
+[   23880 ms] GPIO2 duty=0
+[   23880 ms] TX {"status":"OK","led":false}
+[   23880 ms] TX 
+[   23881 ms] RX SET PWM 25
+
+[   23881 ms] GPIO2 duty=63
+[   23881 ms] TX {"status":"OK","pwm":25}
+[   23881 ms] RX STATUS
+
+[   23881 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   23881 ms] RX SET PWM 5.5
+
+[   23881 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   23881 ms] TX 
+[   23882 ms] RX STATUS
+
+[   23882 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   23882 ms] RX SET LED OFF
+
+[   23882 ms] GPIO2 duty=0
+[   23882 ms] TX {"status":"OK","led":false}
+[   23882 ms] TX 
+[   23883 ms] RX RESET
+
+[   23883 ms] TX {"status":"OK","reset":true}
+[   23883 ms] TX 
+[   24083 ms] RX SET LED OFF
+
+[   24083 ms] GPIO2 duty=0
+[   24083 ms] TX {"status":"OK","led":false}
+[   24083 ms] TX 
+[   24084 ms] RX SET PWM 25
+
+[   24084 ms] GPIO2 duty=63
+[   24084 ms] TX {"status":"OK","pwm":25}
+[   24085 ms] RX STATUS
+
+[   24085 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24085 ms] RX SET PWM +5
+
+[   24085 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   24085 ms] TX 
+[   24085 ms] RX STATUS
+
+[   24085 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24086 ms] RX SET LED OFF
+
+[   24086 ms] GPIO2 duty=0
+[   24086 ms] TX {"status":"OK","led":false}
+[   24086 ms] TX 
+[   24087 ms] RX RESET
+
+[   24087 ms] TX {"status":"OK","reset":true}
+[   24087 ms] TX 
+[   24288 ms] RX SET LED OFF
+
+[   24288 ms] GPIO2 duty=0
+[   24288 ms] TX {"status":"OK","led":false}
+[   24288 ms] TX 
+[   24289 ms] RX SET PWM 25
+
+[   24289 ms] GPIO2 duty=63
+[   24289 ms] TX {"status":"OK","pwm":25}
+[   24290 ms] RX STATUS
+
+[   24290 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24290 ms] RX SET PWM 1e2
+
+[   24290 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   24290 ms] TX 
+[   24291 ms] RX STATUS
+
+[   24291 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24291 ms] RX SET LED OFF
+
+[   24291 ms] GPIO2 duty=0
+[   24291 ms] TX {"status":"OK","led":false}
+[   24291 ms] TX 
+[   24292 ms] RX RESET
+
+[   24292 ms] TX {"status":"OK","reset":true}
+[   24292 ms] TX 
+[   24493 ms] RX SET LED OFF
+
+[   24493 ms] GPIO2 duty=0
+[   24493 ms] TX {"status":"OK","led":false}
+[   24493 ms] TX 
+[   24494 ms] RX SET PWM 25
+
+[   24494 ms] GPIO2 duty=63
+[   24494 ms] TX {"status":"OK","pwm":25}
+[   24494 ms] RX STATUS
+
+[   24494 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24494 ms] RX SET PWM 0x10
+
+[   24494 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   24494 ms] TX 
+[   24495 ms] RX STATUS
+
+[   24495 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24495 ms] RX SET LED OFF
+
+[   24495 ms] GPIO2 duty=0
+[   24495 ms] TX {"status":"OK","led":false}
+[   24495 ms] TX 
+[   24495 ms] RX RESET
+
+[   24495 ms] TX {"status":"OK","reset":true}
+[   24495 ms] TX 
+[   24697 ms] RX SET LED OFF
+
+[   24697 ms] GPIO2 duty=0
+[   24697 ms] TX {"status":"OK","led":false}
+[   24697 ms] TX 
+[   24698 ms] RX SET PWM 25
+
+[   24698 ms] GPIO2 duty=63
+[   24698 ms] TX {"status":"OK","pwm":25}
+[   24698 ms] RX STATUS
+
+[   24698 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24699 ms] RX SET PWM 50 50
+
+[   24699 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   24699 ms] TX 
+[   24699 ms] RX STATUS
+
+[   24699 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24700 ms] RX SET LED OFF
+
+[   24700 ms] GPIO2 duty=0
+[   24700 ms] TX {"status":"OK","led":false}
+[   24700 ms] TX 
+[   24700 ms] RX RESET
+
+[   24700 ms] TX {"status":"OK","reset":true}
+[   24700 ms] TX 
+[   24903 ms] RX SET LED OFF
+
+[   24903 ms] GPIO2 duty=0
+[   24903 ms] TX {"status":"OK","led":false}
+[   24903 ms] TX 
+[   24904 ms] RX SET PWM 25
+
+[   24904 ms] GPIO2 duty=63
+[   24904 ms] TX {"status":"OK","pwm":25}
+[   24904 ms] RX STATUS
+
+[   24904 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24905 ms] RX SET PWM -0
+
+[   24905 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   24905 ms] TX 
+[   24905 ms] RX STATUS
+
+[   24905 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   24906 ms] RX SET LED OFF
+
+[   24906 ms] GPIO2 duty=0
+[   24906 ms] TX {"status":"OK","led":false}
+[   24906 ms] TX 
+[   24906 ms] RX RESET
+
+[   24906 ms] TX {"status":"OK","reset":true}
+[   24906 ms] TX 
+[   25107 ms] RX SET LED OFF
+
+[   25107 ms] GPIO2 duty=0
+[   25107 ms] TX {"status":"OK","led":false}
+[   25107 ms] TX 
+[   25108 ms] RX SET PWM 25
+
+[   25108 ms] GPIO2 duty=63
+[   25108 ms] TX {"status":"OK","pwm":25}
+[   25108 ms] RX STATUS
+
+[   25108 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25108 ms] RX SET PWM
+
+[   25108 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   25108 ms] TX 
+[   25108 ms] RX STATUS
+
+[   25108 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25109 ms] RX SET LED OFF
+
+[   25109 ms] GPIO2 duty=0
+[   25109 ms] TX {"status":"OK","led":false}
+[   25109 ms] TX 
+[   25109 ms] RX RESET
+
+[   25109 ms] TX {"status":"OK","reset":true}
+[   25109 ms] TX 
+[   25311 ms] RX SET LED OFF
+
+[   25311 ms] GPIO2 duty=0
+[   25311 ms] TX {"status":"OK","led":false}
+[   25311 ms] TX 
+[   25312 ms] RX SET PWM 25
+
+[   25312 ms] GPIO2 duty=63
+[   25312 ms] TX {"status":"OK","pwm":25}
+[   25312 ms] RX STATUS
+
+[   25312 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25312 ms] RX SET LED BLINK
+
+[   25312 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   25312 ms] TX 
+[   25313 ms] RX STATUS
+
+[   25313 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25314 ms] RX SET LED OFF
+
+[   25314 ms] GPIO2 duty=0
+[   25314 ms] TX {"status":"OK","led":false}
+[   25314 ms] TX 
+[   25314 ms] RX RESET
+
+[   25314 ms] TX {"status":"OK","reset":true}
+[   25314 ms] TX 
+[   25516 ms] RX SET LED OFF
+
+[   25516 ms] GPIO2 duty=0
+[   25516 ms] TX {"status":"OK","led":false}
+[   25516 ms] TX 
+[   25517 ms] RX SET PWM 25
+
+[   25517 ms] GPIO2 duty=63
+[   25517 ms] TX {"status":"OK","pwm":25}
+[   25517 ms] RX STATUS
+
+[   25517 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25517 ms] RX set pwm 50
+
+[   25517 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   25517 ms] TX 
+[   25518 ms] RX STATUS
+
+[   25518 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25519 ms] RX SET LED OFF
+
+[   25519 ms] GPIO2 duty=0
+[   25519 ms] TX {"status":"OK","led":false}
+[   25519 ms] TX 
+[   25519 ms] RX RESET
+
+[   25519 ms] TX {"status":"OK","reset":true}
+[   25519 ms] TX 
+[   25721 ms] RX SET LED OFF
+
+[   25721 ms] GPIO2 duty=0
+[   25721 ms] TX {"status":"OK","led":false}
+[   25721 ms] TX 
+[   25722 ms] RX SET PWM 25
+
+[   25722 ms] GPIO2 duty=63
+[   25722 ms] TX {"status":"OK","pwm":25}
+[   25722 ms] RX STATUS
+
+[   25722 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25722 ms] RX PWM 50
+
+[   25722 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   25722 ms] TX 
+[   25722 ms] RX STATUS
+
+[   25722 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25723 ms] RX SET LED OFF
+
+[   25723 ms] GPIO2 duty=0
+[   25723 ms] TX {"status":"OK","led":false}
+[   25723 ms] TX 
+[   25724 ms] RX RESET
+
+[   25724 ms] TX {"status":"OK","reset":true}
+[   25724 ms] TX 
+[   25926 ms] RX SET LED OFF
+
+[   25926 ms] GPIO2 duty=0
+[   25926 ms] TX {"status":"OK","led":false}
+[   25926 ms] TX 
+[   25926 ms] RX SET PWM 25
+
+[   25926 ms] GPIO2 duty=63
+[   25926 ms] TX {"status":"OK","pwm":25}
+[   25927 ms] RX STATUS
+
+[   25927 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25927 ms] RX 
+
+[   25927 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   25927 ms] TX 
+[   25927 ms] RX STATUS
+
+[   25927 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   25928 ms] RX SET LED OFF
+
+[   25928 ms] GPIO2 duty=0
+[   25928 ms] TX {"status":"OK","led":false}
+[   25928 ms] TX 
+[   25928 ms] RX RESET
+
+[   25928 ms] TX {"status":"OK","reset":true}
+[   25928 ms] TX 
+[   26128 ms] RX SET LED OFF
+
+[   26128 ms] GPIO2 duty=0
+[   26128 ms] TX {"status":"OK","led":false}
+[   26128 ms] TX 
+[   26129 ms] RX SET PWM 25
+
+[   26129 ms] GPIO2 duty=63
+[   26129 ms] TX {"status":"OK","pwm":25}
+[   26130 ms] RX STATUS
+
+[   26130 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   26130 ms] RX SET PWM -1
+
+[   26130 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   26130 ms] TX 
+[   26130 ms] RX STATUS
+
+[   26130 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   26131 ms] RX SET LED OFF
+
+[   26131 ms] GPIO2 duty=0
+[   26131 ms] TX {"status":"OK","led":false}
+[   26131 ms] TX 
+[   26131 ms] RX RESET
+
+[   26131 ms] TX {"status":"OK","reset":true}
+[   26131 ms] TX 
+[   26332 ms] RX SET LED OFF
+
+[   26332 ms] GPIO2 duty=0
+[   26332 ms] TX {"status":"OK","led":false}
+[   26332 ms] TX 
+[   26333 ms] RX SET PWM 25
+
+[   26333 ms] GPIO2 duty=63
+[   26333 ms] TX {"status":"OK","pwm":25}
+[   26334 ms] RX STATUS
+
+[   26334 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   26334 ms] RX SET PWM 0
+
+[   26334 ms] GPIO2 duty=0
+[   26334 ms] TX {"status":"OK","pwm":0}
+[   26334 ms] RX STATUS
+
+[   26334 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   26335 ms] RX SET LED OFF
+
+[   26335 ms] GPIO2 duty=0
+[   26335 ms] TX {"status":"OK","led":false}
+[   26335 ms] TX 
+[   26335 ms] RX RESET
+
+[   26335 ms] TX {"status":"OK","reset":true}
+[   26335 ms] TX 
+[   26537 ms] RX SET LED OFF
+
+[   26537 ms] GPIO2 duty=0
+[   26537 ms] TX {"status":"OK","led":false}
+[   26537 ms] TX 
+[   26538 ms] RX SET PWM 25
+
+[   26538 ms] GPIO2 duty=63
+[   26538 ms] TX {"status":"OK","pwm":25}
+[   26538 ms] RX STATUS
+
+[   26538 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   26539 ms] RX SET PWM 1
+
+[   26539 ms] GPIO2 duty=2
+[   26539 ms] TX {"status":"OK","pwm":1}
+[   26539 ms] RX STATUS
+
+[   26539 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   26539 ms] RX SET LED OFF
+
+[   26539 ms] GPIO2 duty=0
+[   26539 ms] TX {"status":"OK","led":false}
+[   26539 ms] TX 
+[   26540 ms] RX RESET
+
+[   26540 ms] TX {"status":"OK","reset":true}
+[   26540 ms] TX 
+[   26741 ms] RX SET LED OFF
+
+[   26741 ms] GPIO2 duty=0
+[   26741 ms] TX {"status":"OK","led":false}
+[   26741 ms] TX 
+[   26742 ms] RX SET PWM 25
+
+[   26742 ms] GPIO2 duty=63
+[   26742 ms] TX {"status":"OK","pwm":25}
+[   26743 ms] RX STATUS
+
+[   26743 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   26743 ms] RX SET PWM 99
+
+[   26743 ms] GPIO2 duty=252
+[   26743 ms] TX {"status":"OK","pwm":99}
+[   26743 ms] RX STATUS
+
+[   26743 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   26744 ms] RX SET LED OFF
+
+[   26744 ms] GPIO2 duty=0
+[   26744 ms] TX {"status":"OK","led":false}
+[   26744 ms] TX 
+[   26744 ms] RX RESET
+
+[   26744 ms] TX {"status":"OK","reset":true}
+[   26744 ms] TX 
+[   26947 ms] RX SET LED OFF
+
+[   26947 ms] GPIO2 duty=0
+[   26947 ms] TX {"status":"OK","led":false}
+[   26947 ms] TX 
+[   26948 ms] RX SET PWM 25
+
+[   26948 ms] GPIO2 duty=63
+[   26948 ms] TX {"status":"OK","pwm":25}
+[   26948 ms] RX STATUS
+
+[   26948 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   26948 ms] RX SET PWM 100
+
+[   26948 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   26948 ms] TX 
+[   26956 ms] RX SET LED OFF
+
+[   26956 ms] GPIO2 duty=0
+[   26956 ms] TX {"status":"OK","led":false}
+[   26956 ms] TX 
+[   26956 ms] RX RESET
+
+[   26956 ms] TX {"status":"OK","reset":true}
+[   26956 ms] TX 
+[   27157 ms] RX SET LED OFF
+
+[   27157 ms] GPIO2 duty=0
+[   27157 ms] TX {"status":"OK","led":false}
+[   27157 ms] TX 
+[   27158 ms] RX SET PWM 25
+
+[   27158 ms] GPIO2 duty=63
+[   27158 ms] TX {"status":"OK","pwm":25}
+[   27158 ms] RX STATUS
+
+[   27158 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27158 ms] RX SET PWM 101
+
+[   27158 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   27158 ms] TX 
+[   27158 ms] RX STATUS
+
+[   27158 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27159 ms] RX SET LED OFF
+
+[   27159 ms] GPIO2 duty=0
+[   27159 ms] TX {"status":"OK","led":false}
+[   27159 ms] TX 
+[   27159 ms] RX RESET
+
+[   27159 ms] TX {"status":"OK","reset":true}
+[   27159 ms] TX 
+[   27360 ms] RX SET LED OFF
+
+[   27360 ms] GPIO2 duty=0
+[   27360 ms] TX {"status":"OK","led":false}
+[   27360 ms] TX 
+[   27361 ms] RX SET PWM 25
+
+[   27361 ms] GPIO2 duty=63
+[   27361 ms] TX {"status":"OK","pwm":25}
+[   27361 ms] RX STATUS
+
+[   27361 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27361 ms] RX SET PWM 2147483647
+
+[   27361 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   27361 ms] TX 
+[   27362 ms] RX STATUS
+
+[   27362 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27362 ms] RX SET LED OFF
+
+[   27362 ms] GPIO2 duty=0
+[   27362 ms] TX {"status":"OK","led":false}
+[   27362 ms] TX 
+[   27362 ms] RX RESET
+
+[   27363 ms] TX {"status":"OK","reset":true}
+[   27363 ms] TX 
+[   27564 ms] RX SET LED OFF
+
+[   27564 ms] GPIO2 duty=0
+[   27564 ms] TX {"status":"OK","led":false}
+[   27564 ms] TX 
+[   27565 ms] RX SET PWM 25
+
+[   27565 ms] GPIO2 duty=63
+[   27565 ms] TX {"status":"OK","pwm":25}
+[   27565 ms] RX STATUS
+
+[   27565 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27565 ms] RX SET PWM 2147483648
+
+[   27565 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   27565 ms] TX 
+[   27565 ms] RX STATUS
+
+[   27565 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27566 ms] RX SET LED OFF
+
+[   27566 ms] GPIO2 duty=0
+[   27566 ms] TX {"status":"OK","led":false}
+[   27566 ms] TX 
+[   27566 ms] RX RESET
+
+[   27566 ms] TX {"status":"OK","reset":true}
+[   27566 ms] TX 
+[   27767 ms] RX SET LED OFF
+
+[   27767 ms] GPIO2 duty=0
+[   27767 ms] TX {"status":"OK","led":false}
+[   27767 ms] TX 
+[   27768 ms] RX SET PWM 25
+
+[   27768 ms] GPIO2 duty=63
+[   27768 ms] TX {"status":"OK","pwm":25}
+[   27768 ms] RX STATUS
+
+[   27768 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27769 ms] RX SET PWM 4294967296
+
+[   27769 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   27769 ms] TX 
+[   27769 ms] RX STATUS
+
+[   27769 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27769 ms] RX SET LED OFF
+
+[   27769 ms] GPIO2 duty=0
+[   27769 ms] TX {"status":"OK","led":false}
+[   27769 ms] TX 
+[   27770 ms] RX RESET
+
+[   27770 ms] TX {"status":"OK","reset":true}
+[   27770 ms] TX 
+[   27972 ms] RX SET LED OFF
+
+[   27972 ms] GPIO2 duty=0
+[   27972 ms] TX {"status":"OK","led":false}
+[   27972 ms] TX 
+[   27973 ms] RX SET PWM 25
+
+[   27973 ms] GPIO2 duty=63
+[   27973 ms] TX {"status":"OK","pwm":25}
+[   27974 ms] RX STATUS
+
+[   27974 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27974 ms] RX SET PWM 4294967396
+
+[   27974 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   27974 ms] TX 
+[   27974 ms] RX STATUS
+
+[   27974 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   27975 ms] RX SET LED OFF
+
+[   27975 ms] GPIO2 duty=0
+[   27975 ms] TX {"status":"OK","led":false}
+[   27975 ms] TX 
+[   27975 ms] RX RESET
+
+[   27975 ms] TX {"status":"OK","reset":true}
+[   27975 ms] TX 
+[   28176 ms] RX SET LED OFF
+
+[   28176 ms] GPIO2 duty=0
+[   28176 ms] TX {"status":"OK","led":false}
+[   28176 ms] TX 
+[   28177 ms] RX NO_RESPONSE
+
+[   28377 ms] RX PING
+
+[   28377 ms] TX {"status":"OK","command":"PING"}
+[   28377 ms] TX 
+[   28378 ms] RX SET LED OFF
+
+[   28378 ms] GPIO2 duty=0
+[   28378 ms] TX {"status":"OK","led":false}
+[   28378 ms] TX 
+[   28378 ms] RX RESET
+
+[   28378 ms] TX {"status":"OK","reset":true}
+[   28378 ms] TX 
+[   28579 ms] RX SET LED OFF
+
+[   28579 ms] GPIO2 duty=0
+[   28579 ms] TX {"status":"OK","led":false}
+[   28580 ms] TX 
+[   28580 ms] RX NO_RESPONSE
+
+[   29081 ms] RX PING
+
+[   29081 ms] TX {"status":"OK","command":"PING"}
+[   29081 ms] TX 
+[   29082 ms] RX SET LED OFF
+
+[   29082 ms] GPIO2 duty=0
+[   29082 ms] TX {"status":"OK","led":false}
+[   29082 ms] TX 
+[   29082 ms] RX RESET
+
+[   29082 ms] TX {"status":"OK","reset":true}
+[   29082 ms] TX 
+[   29283 ms] RX SET LED OFF
+
+[   29283 ms] GPIO2 duty=0
+[   29283 ms] TX {"status":"OK","led":false}
+[   29283 ms] TX 
+[   29284 ms] RX NO_RESPONSE
+
+[   30286 ms] RX PING
+
+[   30286 ms] TX {"status":"OK","command":"PING"}
+[   30286 ms] TX 
+[   30287 ms] RX SET LED OFF
+
+[   30287 ms] GPIO2 duty=0
+[   30287 ms] TX {"status":"OK","led":false}
+[   30287 ms] TX 
+[   30287 ms] RX RESET
+
+[   30287 ms] TX {"status":"OK","reset":true}
+[   30287 ms] TX 
+[   30489 ms] RX SET LED OFF
+
+[   30489 ms] GPIO2 duty=0
+[   30489 ms] TX {"status":"OK","led":false}
+[   30489 ms] TX 
+[   30490 ms] RX PING
+
+[   30490 ms] TX {"status":"OK","command":"PING"}
+[   30490 ms] TX 
+[   30490 ms] RX PING
+
+[   30490 ms] TX {"status":"OK","command":"PING"}
+[   30490 ms] TX 
+[   30490 ms] RX PING
+
+[   30490 ms] TX {"status":"OK","command":"PING"}
+[   30490 ms] TX 
+[   30491 ms] RX PING
+
+[   30491 ms] TX {"status":"OK","command":"PING"}
+[   30491 ms] TX 
+[   30491 ms] RX PING
+
+[   30491 ms] TX {"status":"OK","command":"PING"}
+[   30491 ms] TX 
+[   30491 ms] RX SET LED OFF
+
+[   30491 ms] GPIO2 duty=0
+[   30491 ms] TX {"status":"OK","led":false}
+[   30491 ms] TX 
+[   30492 ms] RX RESET
+
+[   30492 ms] TX {"status":"OK","reset":true}
+[   30492 ms] TX 
+[   30693 ms] RX SET LED OFF
+
+[   30693 ms] GPIO2 duty=0
+[   30693 ms] TX {"status":"OK","led":false}
+[   30693 ms] TX 
+[   30693 ms] RX STATUS
+
+[   30693 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   30694 ms] RX STATUS
+
+[   30694 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   30694 ms] RX STATUS
+
+[   30694 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   30694 ms] RX STATUS
+
+[   30694 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   30695 ms] RX STATUS
+
+[   30695 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   30695 ms] RX SET LED OFF
+
+[   30695 ms] GPIO2 duty=0
+[   30695 ms] TX {"status":"OK","led":false}
+[   30695 ms] TX 
+[   30696 ms] RX RESET
+
+[   30696 ms] TX {"status":"OK","reset":true}
+[   30696 ms] TX 
+[   30898 ms] RX SET LED OFF
+
+[   30898 ms] GPIO2 duty=0
+[   30898 ms] TX {"status":"OK","led":false}
+[   30898 ms] TX 
+[   30898 ms] RX GET TEMP
+
+[   30899 ms] TX {"status":"OK","temperature":24.5
+[   30899 ms] RX GET TEMP
+
+[   30899 ms] TX {"status":"OK","temperature":24.5
+[   30899 ms] RX GET TEMP
+
+[   30899 ms] TX {"status":"OK","temperature":24.5
+[   30899 ms] RX GET TEMP
+
+[   30899 ms] TX {"status":"OK","temperature":24.5
+[   30899 ms] RX GET TEMP
+
+[   30899 ms] TX {"status":"OK","temperature":24.5
+[   30900 ms] RX SET LED OFF
+
+[   30900 ms] GPIO2 duty=0
+[   30900 ms] TX {"status":"OK","led":false}
+[   30900 ms] TX 
+[   30900 ms] RX RESET
+
+[   30900 ms] TX {"status":"OK","reset":true}
+[   30900 ms] TX 
+[   31101 ms] RX SET LED OFF
+
+[   31101 ms] GPIO2 duty=0
+[   31101 ms] TX {"status":"OK","led":false}
+[   31101 ms] TX 
+[   31101 ms] RX SET PWM 10
+
+[   31101 ms] GPIO2 duty=25
+[   31101 ms] TX {"status":"OK","pwm":10}
+[   31102 ms] RX SET PWM 10
+
+[   31102 ms] GPIO2 duty=25
+[   31102 ms] TX {"status":"OK","pwm":10}
+[   31102 ms] RX SET PWM 10
+
+[   31102 ms] GPIO2 duty=25
+[   31102 ms] TX {"status":"OK","pwm":10}
+[   31104 ms] RX SET PWM 10
+
+[   31104 ms] GPIO2 duty=25
+[   31104 ms] TX {"status":"OK","pwm":10}
+[   31104 ms] RX SET PWM 10
+
+[   31104 ms] GPIO2 duty=25
+[   31104 ms] TX {"status":"OK","pwm":10}
+[   31105 ms] RX SET LED OFF
+
+[   31105 ms] GPIO2 duty=0
+[   31105 ms] TX {"status":"OK","led":false}
+[   31105 ms] TX 
+[   31105 ms] RX RESET
+
+[   31105 ms] TX {"status":"OK","reset":true}
+[   31105 ms] TX 
+[   31307 ms] RX SET LED ON
+
+[   31307 ms] GPIO2 duty=255
+[   31307 ms] TX {"status":"OK","led":true}
+[   31307 ms] TX 
+[   31307 ms] RX SET LED OFF
+
+[   31307 ms] GPIO2 duty=0
+[   31307 ms] TX {"status":"OK","led":false}
+[   31307 ms] TX 
+[   31307 ms] RX RESET
+
+[   31307 ms] TX {"status":"OK","reset":true}
+[   31307 ms] TX 
+[   31509 ms] RX SET LED ON
+
+[   31509 ms] GPIO2 duty=255
+[   31509 ms] TX {"status":"OK","led":true}
+[   31509 ms] TX 
+[   31509 ms] RX RESET
+
+[   31509 ms] TX {"status":"OK","reset":true}
+[   31509 ms] TX 
+[   31509 ms] RX STATUS
+
+[   31509 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   31512 ms] RX RESET
+
+[   31512 ms] TX {"status":"OK","reset":true}
+[   31512 ms] TX 
+[   31713 ms] RX GET TEMP
+
+[   31713 ms] TX {"status":"OK","temperature":24.5
+[   31724 ms] RX RESET
+
+[   31724 ms] TX {"status":"OK","reset":true}
+[   31724 ms] TX 
+[   31927 ms] RX PING
+
+[   31927 ms] TX {"status":"OK","command":"PING"}
+[   31927 ms] TX 
+[   31927 ms] RX RESET
+
+[   31927 ms] TX {"status":"OK","reset":true}
+[   31927 ms] TX 
+[   32128 ms] RX STATUS
+
+[   32128 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   32129 ms] RX RESET
+
+[   32129 ms] TX {"status":"OK","reset":true}
+[   32129 ms] TX 
+[   32331 ms] RX NO_RESPONSE
+
+[   33332 ms] RX RESET
+
+[   33332 ms] TX {"status":"OK","reset":true}
+[   33332 ms] TX 
+[   38705 ms] RX SET PWM 0
+
+[   38705 ms] GPIO2 duty=0
+[   38705 ms] TX {"status":"OK","pwm":0}
+[   38706 ms] RX RESET
+
+[   38706 ms] TX {"status":"OK","reset":true}
+[   38706 ms] TX 
+[   38908 ms] RX SET PWM 1
+
+[   38908 ms] GPIO2 duty=2
+[   38908 ms] TX {"status":"OK","pwm":1}
+[   38909 ms] RX RESET
+
+[   38909 ms] TX {"status":"OK","reset":true}
+[   38909 ms] TX 
+[   39109 ms] RX SET PWM 50
+
+[   39109 ms] GPIO2 duty=127
+[   39109 ms] TX {"status":"OK","pwm":50}
+[   39110 ms] RX RESET
+
+[   39110 ms] TX {"status":"OK","reset":true}
+[   39110 ms] TX 
+[   39312 ms] RX SET PWM 99
+
+[   39312 ms] GPIO2 duty=252
+[   39312 ms] TX {"status":"OK","pwm":99}
+[   39312 ms] RX RESET
+
+[   39312 ms] TX {"status":"OK","reset":true}
+[   39312 ms] TX 
+[   39515 ms] RX SET PWM 100
+
+[   39515 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   39515 ms] TX 
+[   39529 ms] RX RESET
+
+[   39529 ms] TX {"status":"OK","reset":true}
+[   39529 ms] TX 
+[   39731 ms] RX SET PWM -1
+
+[   39731 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   39731 ms] TX 
+[   39731 ms] RX RESET
+
+[   39731 ms] TX {"status":"OK","reset":true}
+[   39731 ms] TX 
+[   39934 ms] RX SET PWM 101
+
+[   39934 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   39934 ms] TX 
+[   39934 ms] RX RESET
+
+[   39934 ms] TX {"status":"OK","reset":true}
+[   39935 ms] TX 
+[   40135 ms] RX SET PWM 999
+
+[   40135 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   40135 ms] TX 
+[   40136 ms] RX RESET
+
+[   40136 ms] TX {"status":"OK","reset":true}
+[   40136 ms] TX 
+[   40337 ms] RX SET LED OFF
+
+[   40337 ms] GPIO2 duty=0
+[   40337 ms] TX {"status":"OK","led":false}
+[   40337 ms] TX 
+[   40338 ms] RX SET LED ON
+
+[   40338 ms] GPIO2 duty=255
+[   40338 ms] TX {"status":"OK","led":true}
+[   40338 ms] TX 
+[   40338 ms] RX STATUS
+
+[   40338 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   40339 ms] RX SET LED OFF
+
+[   40339 ms] GPIO2 duty=0
+[   40339 ms] TX {"status":"OK","led":false}
+[   40339 ms] TX 
+[   40339 ms] RX RESET
+
+[   40339 ms] TX {"status":"OK","reset":true}
+[   40339 ms] TX 
+[   40540 ms] RX SET LED OFF
+
+[   40540 ms] GPIO2 duty=0
+[   40540 ms] TX {"status":"OK","led":false}
+[   40540 ms] TX 
+[   40541 ms] RX SET LED ON
+
+[   40541 ms] GPIO2 duty=255
+[   40541 ms] TX {"status":"OK","led":true}
+[   40541 ms] TX 
+[   40542 ms] RX SET LED OFF
+
+[   40542 ms] GPIO2 duty=0
+[   40542 ms] TX {"status":"OK","led":false}
+[   40542 ms] TX 
+[   40542 ms] RX STATUS
+
+[   40542 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   40542 ms] RX SET LED OFF
+
+[   40542 ms] GPIO2 duty=0
+[   40542 ms] TX {"status":"OK","led":false}
+[   40542 ms] TX 
+[   40543 ms] RX RESET
+
+[   40543 ms] TX {"status":"OK","reset":true}
+[   40543 ms] TX 
+[   40744 ms] RX SET LED OFF
+
+[   40744 ms] GPIO2 duty=0
+[   40744 ms] TX {"status":"OK","led":false}
+[   40744 ms] TX 
+[   40745 ms] RX SET PWM 25
+
+[   40745 ms] GPIO2 duty=63
+[   40745 ms] TX {"status":"OK","pwm":25}
+[   40745 ms] RX SET PWM 0
+
+[   40745 ms] GPIO2 duty=0
+[   40745 ms] TX {"status":"OK","pwm":0}
+[   40745 ms] RX STATUS
+
+[   40745 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   40745 ms] RX SET LED OFF
+
+[   40745 ms] GPIO2 duty=0
+[   40745 ms] TX {"status":"OK","led":false}
+[   40745 ms] TX 
+[   40745 ms] RX RESET
+
+[   40745 ms] TX {"status":"OK","reset":true}
+[   40745 ms] TX 
+[   40948 ms] RX SET LED OFF
+
+[   40948 ms] GPIO2 duty=0
+[   40948 ms] TX {"status":"OK","led":false}
+[   40948 ms] TX 
+[   40948 ms] RX SET PWM 25
+
+[   40948 ms] GPIO2 duty=63
+[   40948 ms] TX {"status":"OK","pwm":25}
+[   40949 ms] RX SET PWM 1
+
+[   40949 ms] GPIO2 duty=2
+[   40949 ms] TX {"status":"OK","pwm":1}
+[   40949 ms] RX STATUS
+
+[   40949 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   40950 ms] RX SET LED OFF
+
+[   40950 ms] GPIO2 duty=0
+[   40950 ms] TX {"status":"OK","led":false}
+[   40950 ms] TX 
+[   40950 ms] RX RESET
+
+[   40950 ms] TX {"status":"OK","reset":true}
+[   40950 ms] TX 
+[   41151 ms] RX SET LED OFF
+
+[   41151 ms] GPIO2 duty=0
+[   41151 ms] TX {"status":"OK","led":false}
+[   41151 ms] TX 
+[   41151 ms] RX SET PWM 25
+
+[   41151 ms] GPIO2 duty=63
+[   41151 ms] TX {"status":"OK","pwm":25}
+[   41152 ms] RX SET PWM 50
+
+[   41152 ms] GPIO2 duty=127
+[   41152 ms] TX {"status":"OK","pwm":50}
+[   41152 ms] RX STATUS
+
+[   41152 ms] TX {"status":"OK","led":true,"pwm":127,"heap":287512}
+[   41152 ms] RX SET LED OFF
+
+[   41152 ms] GPIO2 duty=0
+[   41152 ms] TX {"status":"OK","led":false}
+[   41152 ms] TX 
+[   41153 ms] RX RESET
+
+[   41153 ms] TX {"status":"OK","reset":true}
+[   41153 ms] TX 
+[   41354 ms] RX SET LED OFF
+
+[   41354 ms] GPIO2 duty=0
+[   41354 ms] TX {"status":"OK","led":false}
+[   41354 ms] TX 
+[   41355 ms] RX SET PWM 25
+
+[   41355 ms] GPIO2 duty=63
+[   41355 ms] TX {"status":"OK","pwm":25}
+[   41355 ms] RX SET PWM 99
+
+[   41355 ms] GPIO2 duty=252
+[   41355 ms] TX {"status":"OK","pwm":99}
+[   41355 ms] RX STATUS
+
+[   41355 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   41356 ms] RX SET LED OFF
+
+[   41356 ms] GPIO2 duty=0
+[   41356 ms] TX {"status":"OK","led":false}
+[   41356 ms] TX 
+[   41356 ms] RX RESET
+
+[   41356 ms] TX {"status":"OK","reset":true}
+[   41356 ms] TX 
+[   41559 ms] RX SET LED OFF
+
+[   41559 ms] GPIO2 duty=0
+[   41559 ms] TX {"status":"OK","led":false}
+[   41559 ms] TX 
+[   41560 ms] RX PING
+
+[   41560 ms] TX {"status":"OK","command":"PING"}
+[   41560 ms] TX 
+[   41661 ms] RX SET LED OFF
+
+[   41661 ms] GPIO2 duty=0
+[   41661 ms] TX {"status":"OK","led":false}
+[   41661 ms] TX 
+[   41662 ms] RX RESET
+
+[   41662 ms] TX {"status":"OK","reset":true}
+[   41662 ms] TX 
+[   41864 ms] RX SET LED OFF
+
+[   41864 ms] GPIO2 duty=0
+[   41864 ms] TX {"status":"OK","led":false}
+[   41864 ms] TX 
+[   41865 ms] RX STATUS
+
+[   41865 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   41966 ms] RX SET LED OFF
+
+[   41966 ms] GPIO2 duty=0
+[   41966 ms] TX {"status":"OK","led":false}
+[   41966 ms] TX 
+[   41967 ms] RX RESET
+
+[   41967 ms] TX {"status":"OK","reset":true}
+[   41967 ms] TX 
+[   42168 ms] RX SET LED OFF
+
+[   42168 ms] GPIO2 duty=0
+[   42168 ms] TX {"status":"OK","led":false}
+[   42168 ms] TX 
+[   42168 ms] RX GET TEMP
+
+[   42168 ms] TX {"status":"OK","temperature":24.5
+[   42188 ms] RX SET LED OFF
+
+[   42188 ms] GPIO2 duty=0
+[   42188 ms] TX {"status":"OK","led":false}
+[   42188 ms] TX 
+[   42189 ms] RX RESET
+
+[   42189 ms] TX {"status":"OK","reset":true}
+[   42189 ms] TX 
+[   42390 ms] RX SET LED OFF
+
+[   42390 ms] GPIO2 duty=0
+[   42390 ms] TX {"status":"OK","led":false}
+[   42390 ms] TX 
+[   42391 ms] RX SET LED ON
+
+[   42391 ms] GPIO2 duty=255
+[   42391 ms] TX {"status":"OK","led":true}
+[   42391 ms] TX 
+[   42492 ms] RX SET LED OFF
+
+[   42492 ms] GPIO2 duty=0
+[   42492 ms] TX {"status":"OK","led":false}
+[   42492 ms] TX 
+[   42493 ms] RX RESET
+
+[   42493 ms] TX {"status":"OK","reset":true}
+[   42493 ms] TX 
+[   42694 ms] RX SET LED OFF
+
+[   42694 ms] GPIO2 duty=0
+[   42694 ms] TX {"status":"OK","led":false}
+[   42694 ms] TX 
+[   42695 ms] RX SET LED OFF
+
+[   42695 ms] GPIO2 duty=0
+[   42695 ms] TX {"status":"OK","led":false}
+[   42695 ms] TX 
+[   42796 ms] RX SET LED OFF
+
+[   42796 ms] GPIO2 duty=0
+[   42796 ms] TX {"status":"OK","led":false}
+[   42796 ms] TX 
+[   42797 ms] RX RESET
+
+[   42797 ms] TX {"status":"OK","reset":true}
+[   42797 ms] TX 
+[   42999 ms] RX SET LED OFF
+
+[   42999 ms] GPIO2 duty=0
+[   42999 ms] TX {"status":"OK","led":false}
+[   42999 ms] TX 
+[   43000 ms] RX SET PWM 10
+
+[   43000 ms] GPIO2 duty=25
+[   43000 ms] TX {"status":"OK","pwm":10}
+[   43100 ms] RX SET LED OFF
+
+[   43100 ms] GPIO2 duty=0
+[   43100 ms] TX {"status":"OK","led":false}
+[   43100 ms] TX 
+[   43100 ms] RX RESET
+
+[   43100 ms] TX {"status":"OK","reset":true}
+[   43100 ms] TX 
+[   43301 ms] RX SET LED OFF
+
+[   43301 ms] GPIO2 duty=0
+[   43301 ms] TX {"status":"OK","led":false}
+[   43301 ms] TX 
+[   43302 ms] RX RESET
+
+[   43302 ms] TX {"status":"OK","reset":true}
+[   43302 ms] TX 
+[   43403 ms] RX SET LED OFF
+
+[   43403 ms] GPIO2 duty=0
+[   43403 ms] TX {"status":"OK","led":false}
+[   43403 ms] TX 
+[   43404 ms] RX RESET
+
+[   43404 ms] TX {"status":"OK","reset":true}
+[   43404 ms] TX 
+[   43605 ms] RX SET LED OFF
+
+[   43605 ms] GPIO2 duty=0
+[   43605 ms] TX {"status":"OK","led":false}
+[   43605 ms] TX 
+[   43606 ms] RX HELLO
+
+[   43606 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   43606 ms] TX 
+[   43707 ms] RX SET LED OFF
+
+[   43707 ms] GPIO2 duty=0
+[   43707 ms] TX {"status":"OK","led":false}
+[   43707 ms] TX 
+[   43707 ms] RX RESET
+
+[   43707 ms] TX {"status":"OK","reset":true}
+[   43707 ms] TX 
+[   43910 ms] RX SET LED OFF
+
+[   43910 ms] GPIO2 duty=0
+[   43910 ms] TX {"status":"OK","led":false}
+[   43910 ms] TX 
+[   43911 ms] RX SET LED ON
+
+[   43911 ms] GPIO2 duty=255
+[   43911 ms] TX {"status":"OK","led":true}
+[   43911 ms] TX 
+[   43911 ms] RX RESET
+
+[   43911 ms] TX {"status":"OK","reset":true}
+[   43911 ms] TX 
+[   43912 ms] RX STATUS
+
+[   43912 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   43920 ms] RX SET LED OFF
+
+[   43920 ms] GPIO2 duty=0
+[   43920 ms] TX {"status":"OK","led":false}
+[   43920 ms] TX 
+[   43920 ms] RX RESET
+
+[   43920 ms] TX {"status":"OK","reset":true}
+[   43920 ms] TX 
+[   44120 ms] RX SET LED OFF
+
+[   44120 ms] GPIO2 duty=0
+[   44120 ms] TX {"status":"OK","led":false}
+[   44120 ms] TX 
+[   44121 ms] RX SET PWM 1
+
+[   44121 ms] GPIO2 duty=2
+[   44121 ms] TX {"status":"OK","pwm":1}
+[   44121 ms] RX RESET
+
+[   44121 ms] TX {"status":"OK","reset":true}
+[   44121 ms] TX 
+[   44122 ms] RX STATUS
+
+[   44122 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   44127 ms] RX SET LED OFF
+
+[   44127 ms] GPIO2 duty=0
+[   44127 ms] TX {"status":"OK","led":false}
+[   44127 ms] TX 
+[   44127 ms] RX RESET
+
+[   44127 ms] TX {"status":"OK","reset":true}
+[   44127 ms] TX 
+[   44329 ms] RX SET LED OFF
+
+[   44329 ms] GPIO2 duty=0
+[   44329 ms] TX {"status":"OK","led":false}
+[   44329 ms] TX 
+[   44330 ms] RX SET PWM 50
+
+[   44330 ms] GPIO2 duty=127
+[   44330 ms] TX {"status":"OK","pwm":50}
+[   44330 ms] RX RESET
+
+[   44330 ms] TX {"status":"OK","reset":true}
+[   44330 ms] TX 
+[   44331 ms] RX STATUS
+
+[   44331 ms] TX {"status":"OK","led":true,"pwm":127,"heap":287512}
+[   44336 ms] RX SET LED OFF
+
+[   44336 ms] GPIO2 duty=0
+[   44336 ms] TX {"status":"OK","led":false}
+[   44336 ms] TX 
+[   44337 ms] RX RESET
+
+[   44337 ms] TX {"status":"OK","reset":true}
+[   44337 ms] TX 
+[   44540 ms] RX SET LED OFF
+
+[   44540 ms] GPIO2 duty=0
+[   44540 ms] TX {"status":"OK","led":false}
+[   44540 ms] TX 
+[   44541 ms] RX SET PWM 99
+
+[   44541 ms] GPIO2 duty=252
+[   44541 ms] TX {"status":"OK","pwm":99}
+[   44541 ms] RX RESET
+
+[   44541 ms] TX {"status":"OK","reset":true}
+[   44541 ms] TX 
+[   44542 ms] RX STATUS
+
+[   44542 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   44547 ms] RX SET LED OFF
+
+[   44547 ms] GPIO2 duty=0
+[   44547 ms] TX {"status":"OK","led":false}
+[   44547 ms] TX 
+[   44548 ms] RX RESET
+
+[   44548 ms] TX {"status":"OK","reset":true}
+[   44548 ms] TX 
+[   44749 ms] RX SET LED OFF
+
+[   44749 ms] GPIO2 duty=0
+[   44749 ms] TX {"status":"OK","led":false}
+[   44749 ms] TX 
+[   44750 ms] RX SET LED OFF
+
+[   44750 ms] GPIO2 duty=0
+[   44750 ms] TX {"status":"OK","led":false}
+[   44750 ms] TX 
+[   44750 ms] RX RESET
+
+[   44750 ms] TX {"status":"OK","reset":true}
+[   44750 ms] TX 
+[   44750 ms] RX STATUS
+
+[   44750 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   44751 ms] RX SET LED OFF
+
+[   44751 ms] GPIO2 duty=0
+[   44751 ms] TX {"status":"OK","led":false}
+[   44751 ms] TX 
+[   44751 ms] RX RESET
+
+[   44751 ms] TX {"status":"OK","reset":true}
+[   44751 ms] TX 
+[   44953 ms] RX SET LED OFF
+
+[   44953 ms] GPIO2 duty=0
+[   44953 ms] TX {"status":"OK","led":false}
+[   44953 ms] TX 
+[   44954 ms] RX SET PWM 25
+
+[   44954 ms] GPIO2 duty=63
+[   44954 ms] TX {"status":"OK","pwm":25}
+[   44954 ms] RX STATUS
+
+[   44954 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   44955 ms] RX SET PWM abc
+
+[   44955 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   44955 ms] TX 
+[   44955 ms] RX STATUS
+
+[   44955 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   44955 ms] RX SET LED OFF
+
+[   44955 ms] GPIO2 duty=0
+[   44955 ms] TX {"status":"OK","led":false}
+[   44955 ms] TX 
+[   44955 ms] RX RESET
+
+[   44956 ms] TX {"status":"OK","reset":true}
+[   44956 ms] TX 
+[   45156 ms] RX SET LED OFF
+
+[   45156 ms] GPIO2 duty=0
+[   45156 ms] TX {"status":"OK","led":false}
+[   45156 ms] TX 
+[   45157 ms] RX SET PWM 25
+
+[   45157 ms] GPIO2 duty=63
+[   45157 ms] TX {"status":"OK","pwm":25}
+[   45157 ms] RX STATUS
+
+[   45157 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45157 ms] RX SET PWM 5.5
+
+[   45157 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   45157 ms] TX 
+[   45158 ms] RX STATUS
+
+[   45158 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45159 ms] RX SET LED OFF
+
+[   45159 ms] GPIO2 duty=0
+[   45159 ms] TX {"status":"OK","led":false}
+[   45159 ms] TX 
+[   45159 ms] RX RESET
+
+[   45159 ms] TX {"status":"OK","reset":true}
+[   45159 ms] TX 
+[   45361 ms] RX SET LED OFF
+
+[   45361 ms] GPIO2 duty=0
+[   45361 ms] TX {"status":"OK","led":false}
+[   45361 ms] TX 
+[   45362 ms] RX SET PWM 25
+
+[   45362 ms] GPIO2 duty=63
+[   45362 ms] TX {"status":"OK","pwm":25}
+[   45362 ms] RX STATUS
+
+[   45362 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45363 ms] RX SET PWM +5
+
+[   45363 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   45363 ms] TX 
+[   45363 ms] RX STATUS
+
+[   45363 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45364 ms] RX SET LED OFF
+
+[   45364 ms] GPIO2 duty=0
+[   45364 ms] TX {"status":"OK","led":false}
+[   45364 ms] TX 
+[   45364 ms] RX RESET
+
+[   45364 ms] TX {"status":"OK","reset":true}
+[   45364 ms] TX 
+[   45565 ms] RX SET LED OFF
+
+[   45565 ms] GPIO2 duty=0
+[   45565 ms] TX {"status":"OK","led":false}
+[   45565 ms] TX 
+[   45566 ms] RX SET PWM 25
+
+[   45566 ms] GPIO2 duty=63
+[   45566 ms] TX {"status":"OK","pwm":25}
+[   45567 ms] RX STATUS
+
+[   45567 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45567 ms] RX SET PWM 1e2
+
+[   45567 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   45567 ms] TX 
+[   45567 ms] RX STATUS
+
+[   45567 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45568 ms] RX SET LED OFF
+
+[   45568 ms] GPIO2 duty=0
+[   45568 ms] TX {"status":"OK","led":false}
+[   45568 ms] TX 
+[   45568 ms] RX RESET
+
+[   45569 ms] TX {"status":"OK","reset":true}
+[   45569 ms] TX 
+[   45771 ms] RX SET LED OFF
+
+[   45771 ms] GPIO2 duty=0
+[   45771 ms] TX {"status":"OK","led":false}
+[   45771 ms] TX 
+[   45772 ms] RX SET PWM 25
+
+[   45772 ms] GPIO2 duty=63
+[   45772 ms] TX {"status":"OK","pwm":25}
+[   45772 ms] RX STATUS
+
+[   45772 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45772 ms] RX SET PWM 0x10
+
+[   45772 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   45772 ms] TX 
+[   45772 ms] RX STATUS
+
+[   45772 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45773 ms] RX SET LED OFF
+
+[   45773 ms] GPIO2 duty=0
+[   45773 ms] TX {"status":"OK","led":false}
+[   45773 ms] TX 
+[   45773 ms] RX RESET
+
+[   45773 ms] TX {"status":"OK","reset":true}
+[   45773 ms] TX 
+[   45976 ms] RX SET LED OFF
+
+[   45976 ms] GPIO2 duty=0
+[   45976 ms] TX {"status":"OK","led":false}
+[   45976 ms] TX 
+[   45977 ms] RX SET PWM 25
+
+[   45977 ms] GPIO2 duty=63
+[   45977 ms] TX {"status":"OK","pwm":25}
+[   45977 ms] RX STATUS
+
+[   45977 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45977 ms] RX SET PWM 50 50
+
+[   45977 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   45977 ms] TX 
+[   45977 ms] RX STATUS
+
+[   45977 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   45978 ms] RX SET LED OFF
+
+[   45978 ms] GPIO2 duty=0
+[   45978 ms] TX {"status":"OK","led":false}
+[   45978 ms] TX 
+[   45978 ms] RX RESET
+
+[   45978 ms] TX {"status":"OK","reset":true}
+[   45978 ms] TX 
+[   46178 ms] RX SET LED OFF
+
+[   46178 ms] GPIO2 duty=0
+[   46178 ms] TX {"status":"OK","led":false}
+[   46178 ms] TX 
+[   46179 ms] RX SET PWM 25
+
+[   46179 ms] GPIO2 duty=63
+[   46179 ms] TX {"status":"OK","pwm":25}
+[   46180 ms] RX STATUS
+
+[   46180 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46180 ms] RX SET PWM -0
+
+[   46180 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   46180 ms] TX 
+[   46180 ms] RX STATUS
+
+[   46180 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46181 ms] RX SET LED OFF
+
+[   46181 ms] GPIO2 duty=0
+[   46181 ms] TX {"status":"OK","led":false}
+[   46181 ms] TX 
+[   46181 ms] RX RESET
+
+[   46181 ms] TX {"status":"OK","reset":true}
+[   46181 ms] TX 
+[   46383 ms] RX SET LED OFF
+
+[   46383 ms] GPIO2 duty=0
+[   46383 ms] TX {"status":"OK","led":false}
+[   46383 ms] TX 
+[   46384 ms] RX SET PWM 25
+
+[   46384 ms] GPIO2 duty=63
+[   46384 ms] TX {"status":"OK","pwm":25}
+[   46384 ms] RX STATUS
+
+[   46384 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46384 ms] RX SET PWM
+
+[   46384 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   46384 ms] TX 
+[   46385 ms] RX STATUS
+
+[   46385 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46385 ms] RX SET LED OFF
+
+[   46385 ms] GPIO2 duty=0
+[   46385 ms] TX {"status":"OK","led":false}
+[   46385 ms] TX 
+[   46386 ms] RX RESET
+
+[   46386 ms] TX {"status":"OK","reset":true}
+[   46386 ms] TX 
+[   46587 ms] RX SET LED OFF
+
+[   46587 ms] GPIO2 duty=0
+[   46587 ms] TX {"status":"OK","led":false}
+[   46587 ms] TX 
+[   46588 ms] RX SET PWM 25
+
+[   46588 ms] GPIO2 duty=63
+[   46588 ms] TX {"status":"OK","pwm":25}
+[   46588 ms] RX STATUS
+
+[   46588 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46589 ms] RX SET LED BLINK
+
+[   46589 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   46589 ms] TX 
+[   46589 ms] RX STATUS
+
+[   46589 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46590 ms] RX SET LED OFF
+
+[   46590 ms] GPIO2 duty=0
+[   46590 ms] TX {"status":"OK","led":false}
+[   46590 ms] TX 
+[   46590 ms] RX RESET
+
+[   46590 ms] TX {"status":"OK","reset":true}
+[   46590 ms] TX 
+[   46791 ms] RX SET LED OFF
+
+[   46791 ms] GPIO2 duty=0
+[   46791 ms] TX {"status":"OK","led":false}
+[   46792 ms] TX 
+[   46792 ms] RX SET PWM 25
+
+[   46792 ms] GPIO2 duty=63
+[   46792 ms] TX {"status":"OK","pwm":25}
+[   46793 ms] RX STATUS
+
+[   46793 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46793 ms] RX set pwm 50
+
+[   46793 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   46793 ms] TX 
+[   46793 ms] RX STATUS
+
+[   46793 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46794 ms] RX SET LED OFF
+
+[   46794 ms] GPIO2 duty=0
+[   46794 ms] TX {"status":"OK","led":false}
+[   46794 ms] TX 
+[   46794 ms] RX RESET
+
+[   46794 ms] TX {"status":"OK","reset":true}
+[   46794 ms] TX 
+[   46996 ms] RX SET LED OFF
+
+[   46996 ms] GPIO2 duty=0
+[   46996 ms] TX {"status":"OK","led":false}
+[   46996 ms] TX 
+[   46997 ms] RX SET PWM 25
+
+[   46997 ms] GPIO2 duty=63
+[   46997 ms] TX {"status":"OK","pwm":25}
+[   46997 ms] RX STATUS
+
+[   46997 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46997 ms] RX PWM 50
+
+[   46997 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   46997 ms] TX 
+[   46998 ms] RX STATUS
+
+[   46998 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   46998 ms] RX SET LED OFF
+
+[   46998 ms] GPIO2 duty=0
+[   46998 ms] TX {"status":"OK","led":false}
+[   46998 ms] TX 
+[   46998 ms] RX RESET
+
+[   46998 ms] TX {"status":"OK","reset":true}
+[   46998 ms] TX 
+[   47198 ms] RX SET LED OFF
+
+[   47198 ms] GPIO2 duty=0
+[   47198 ms] TX {"status":"OK","led":false}
+[   47199 ms] TX 
+[   47199 ms] RX SET PWM 25
+
+[   47199 ms] GPIO2 duty=63
+[   47199 ms] TX {"status":"OK","pwm":25}
+[   47200 ms] RX STATUS
+
+[   47200 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   47200 ms] RX 
+
+[   47200 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   47200 ms] TX 
+[   47200 ms] RX STATUS
+
+[   47200 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   47200 ms] RX SET LED OFF
+
+[   47200 ms] GPIO2 duty=0
+[   47200 ms] TX {"status":"OK","led":false}
+[   47201 ms] TX 
+[   47201 ms] RX RESET
+
+[   47201 ms] TX {"status":"OK","reset":true}
+[   47201 ms] TX 
+[   47402 ms] RX SET LED OFF
+
+[   47402 ms] GPIO2 duty=0
+[   47402 ms] TX {"status":"OK","led":false}
+[   47402 ms] TX 
+[   47403 ms] RX SET PWM 25
+
+[   47403 ms] GPIO2 duty=63
+[   47403 ms] TX {"status":"OK","pwm":25}
+[   47403 ms] RX STATUS
+
+[   47403 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   47404 ms] RX SET PWM -1
+
+[   47404 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   47404 ms] TX 
+[   47404 ms] RX STATUS
+
+[   47404 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   47405 ms] RX SET LED OFF
+
+[   47405 ms] GPIO2 duty=0
+[   47405 ms] TX {"status":"OK","led":false}
+[   47405 ms] TX 
+[   47405 ms] RX RESET
+
+[   47405 ms] TX {"status":"OK","reset":true}
+[   47405 ms] TX 
+[   47607 ms] RX SET LED OFF
+
+[   47607 ms] GPIO2 duty=0
+[   47607 ms] TX {"status":"OK","led":false}
+[   47607 ms] TX 
+[   47608 ms] RX SET PWM 25
+
+[   47608 ms] GPIO2 duty=63
+[   47608 ms] TX {"status":"OK","pwm":25}
+[   47608 ms] RX STATUS
+
+[   47608 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   47609 ms] RX SET PWM 0
+
+[   47609 ms] GPIO2 duty=0
+[   47609 ms] TX {"status":"OK","pwm":0}
+[   47609 ms] RX STATUS
+
+[   47609 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   47610 ms] RX SET LED OFF
+
+[   47610 ms] GPIO2 duty=0
+[   47610 ms] TX {"status":"OK","led":false}
+[   47610 ms] TX 
+[   47610 ms] RX RESET
+
+[   47610 ms] TX {"status":"OK","reset":true}
+[   47610 ms] TX 
+[   47811 ms] RX SET LED OFF
+
+[   47812 ms] GPIO2 duty=0
+[   47812 ms] TX {"status":"OK","led":false}
+[   47812 ms] TX 
+[   47812 ms] RX SET PWM 25
+
+[   47812 ms] GPIO2 duty=63
+[   47812 ms] TX {"status":"OK","pwm":25}
+[   47813 ms] RX STATUS
+
+[   47813 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   47813 ms] RX SET PWM 1
+
+[   47813 ms] GPIO2 duty=2
+[   47813 ms] TX {"status":"OK","pwm":1}
+[   47813 ms] RX STATUS
+
+[   47813 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   47814 ms] RX SET LED OFF
+
+[   47814 ms] GPIO2 duty=0
+[   47814 ms] TX {"status":"OK","led":false}
+[   47814 ms] TX 
+[   47814 ms] RX RESET
+
+[   47814 ms] TX {"status":"OK","reset":true}
+[   47814 ms] TX 
+[   48015 ms] RX SET LED OFF
+
+[   48016 ms] GPIO2 duty=0
+[   48016 ms] TX {"status":"OK","led":false}
+[   48016 ms] TX 
+[   48016 ms] RX SET PWM 25
+
+[   48016 ms] GPIO2 duty=63
+[   48016 ms] TX {"status":"OK","pwm":25}
+[   48017 ms] RX STATUS
+
+[   48017 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   48017 ms] RX SET PWM 99
+
+[   48017 ms] GPIO2 duty=252
+[   48017 ms] TX {"status":"OK","pwm":99}
+[   48017 ms] RX STATUS
+
+[   48017 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   48018 ms] RX SET LED OFF
+
+[   48018 ms] GPIO2 duty=0
+[   48018 ms] TX {"status":"OK","led":false}
+[   48018 ms] TX 
+[   48018 ms] RX RESET
+
+[   48018 ms] TX {"status":"OK","reset":true}
+[   48018 ms] TX 
+[   48219 ms] RX SET LED OFF
+
+[   48219 ms] GPIO2 duty=0
+[   48219 ms] TX {"status":"OK","led":false}
+[   48219 ms] TX 
+[   48220 ms] RX SET PWM 25
+
+[   48220 ms] GPIO2 duty=63
+[   48220 ms] TX {"status":"OK","pwm":25}
+[   48220 ms] RX STATUS
+
+[   48220 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   48220 ms] RX SET PWM 100
+
+[   48220 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   48220 ms] TX 
+[   48226 ms] RX SET LED OFF
+
+[   48226 ms] GPIO2 duty=0
+[   48226 ms] TX {"status":"OK","led":false}
+[   48226 ms] TX 
+[   48226 ms] RX RESET
+
+[   48226 ms] TX {"status":"OK","reset":true}
+[   48226 ms] TX 
+[   48428 ms] RX SET LED OFF
+
+[   48428 ms] GPIO2 duty=0
+[   48428 ms] TX {"status":"OK","led":false}
+[   48428 ms] TX 
+[   48429 ms] RX SET PWM 25
+
+[   48429 ms] GPIO2 duty=63
+[   48429 ms] TX {"status":"OK","pwm":25}
+[   48429 ms] RX STATUS
+
+[   48429 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   48430 ms] RX SET PWM 101
+
+[   48430 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   48430 ms] TX 
+[   48430 ms] RX STATUS
+
+[   48430 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   48431 ms] RX SET LED OFF
+
+[   48431 ms] GPIO2 duty=0
+[   48431 ms] TX {"status":"OK","led":false}
+[   48431 ms] TX 
+[   48431 ms] RX RESET
+
+[   48431 ms] TX {"status":"OK","reset":true}
+[   48431 ms] TX 
+[   48633 ms] RX SET LED OFF
+
+[   48633 ms] GPIO2 duty=0
+[   48633 ms] TX {"status":"OK","led":false}
+[   48633 ms] TX 
+[   48634 ms] RX SET PWM 25
+
+[   48634 ms] GPIO2 duty=63
+[   48634 ms] TX {"status":"OK","pwm":25}
+[   48634 ms] RX STATUS
+
+[   48634 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   48634 ms] RX SET PWM 2147483647
+
+[   48634 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   48634 ms] TX 
+[   48634 ms] RX STATUS
+
+[   48634 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   48635 ms] RX SET LED OFF
+
+[   48635 ms] GPIO2 duty=0
+[   48635 ms] TX {"status":"OK","led":false}
+[   48635 ms] TX 
+[   48635 ms] RX RESET
+
+[   48635 ms] TX {"status":"OK","reset":true}
+[   48635 ms] TX 
+[   48837 ms] RX SET LED OFF
+
+[   48837 ms] GPIO2 duty=0
+[   48837 ms] TX {"status":"OK","led":false}
+[   48837 ms] TX 
+[   48838 ms] RX SET PWM 25
+
+[   48838 ms] GPIO2 duty=63
+[   48838 ms] TX {"status":"OK","pwm":25}
+[   48838 ms] RX STATUS
+
+[   48838 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   48838 ms] RX SET PWM 2147483648
+
+[   48838 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   48838 ms] TX 
+[   48839 ms] RX STATUS
+
+[   48839 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   48840 ms] RX SET LED OFF
+
+[   48840 ms] GPIO2 duty=0
+[   48840 ms] TX {"status":"OK","led":false}
+[   48840 ms] TX 
+[   48840 ms] RX RESET
+
+[   48840 ms] TX {"status":"OK","reset":true}
+[   48840 ms] TX 
+[   49041 ms] RX SET LED OFF
+
+[   49041 ms] GPIO2 duty=0
+[   49041 ms] TX {"status":"OK","led":false}
+[   49041 ms] TX 
+[   49042 ms] RX SET PWM 25
+
+[   49042 ms] GPIO2 duty=63
+[   49042 ms] TX {"status":"OK","pwm":25}
+[   49043 ms] RX STATUS
+
+[   49043 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   49043 ms] RX SET PWM 4294967296
+
+[   49043 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   49043 ms] TX 
+[   49043 ms] RX STATUS
+
+[   49043 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   49044 ms] RX SET LED OFF
+
+[   49044 ms] GPIO2 duty=0
+[   49044 ms] TX {"status":"OK","led":false}
+[   49044 ms] TX 
+[   49044 ms] RX RESET
+
+[   49044 ms] TX {"status":"OK","reset":true}
+[   49044 ms] TX 
+[   49246 ms] RX SET LED OFF
+
+[   49246 ms] GPIO2 duty=0
+[   49246 ms] TX {"status":"OK","led":false}
+[   49246 ms] TX 
+[   49246 ms] RX SET PWM 25
+
+[   49246 ms] GPIO2 duty=63
+[   49246 ms] TX {"status":"OK","pwm":25}
+[   49247 ms] RX STATUS
+
+[   49247 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   49247 ms] RX SET PWM 4294967396
+
+[   49247 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   49247 ms] TX 
+[   49247 ms] RX STATUS
+
+[   49247 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   49248 ms] RX SET LED OFF
+
+[   49248 ms] GPIO2 duty=0
+[   49248 ms] TX {"status":"OK","led":false}
+[   49248 ms] TX 
+[   49248 ms] RX RESET
+
+[   49248 ms] TX {"status":"OK","reset":true}
+[   49248 ms] TX 
+[   49454 ms] RX SET LED OFF
+
+[   49454 ms] GPIO2 duty=0
+[   49454 ms] TX {"status":"OK","led":false}
+[   49454 ms] TX 
+[   49455 ms] RX NO_RESPONSE
+
+[   49655 ms] RX PING
+
+[   49655 ms] TX {"status":"OK","command":"PING"}
+[   49655 ms] TX 
+[   49656 ms] RX SET LED OFF
+
+[   49656 ms] GPIO2 duty=0
+[   49656 ms] TX {"status":"OK","led":false}
+[   49656 ms] TX 
+[   49657 ms] RX RESET
+
+[   49657 ms] TX {"status":"OK","reset":true}
+[   49657 ms] TX 
+[   49859 ms] RX SET LED OFF
+
+[   49859 ms] GPIO2 duty=0
+[   49859 ms] TX {"status":"OK","led":false}
+[   49859 ms] TX 
+[   49861 ms] RX NO_RESPONSE
+
+[   50360 ms] RX PING
+
+[   50360 ms] TX {"status":"OK","command":"PING"}
+[   50360 ms] TX 
+[   50361 ms] RX SET LED OFF
+
+[   50361 ms] GPIO2 duty=0
+[   50361 ms] TX {"status":"OK","led":false}
+[   50361 ms] TX 
+[   50361 ms] RX RESET
+
+[   50361 ms] TX {"status":"OK","reset":true}
+[   50361 ms] TX 
+[   50563 ms] RX SET LED OFF
+
+[   50563 ms] GPIO2 duty=0
+[   50563 ms] TX {"status":"OK","led":false}
+[   50563 ms] TX 
+[   50564 ms] RX NO_RESPONSE
+
+[   51565 ms] RX PING
+
+[   51565 ms] TX {"status":"OK","command":"PING"}
+[   51565 ms] TX 
+[   51566 ms] RX SET LED OFF
+
+[   51566 ms] GPIO2 duty=0
+[   51566 ms] TX {"status":"OK","led":false}
+[   51566 ms] TX 
+[   51566 ms] RX RESET
+
+[   51566 ms] TX {"status":"OK","reset":true}
+[   51566 ms] TX 
+[   51767 ms] RX SET LED OFF
+
+[   51767 ms] GPIO2 duty=0
+[   51767 ms] TX {"status":"OK","led":false}
+[   51767 ms] TX 
+[   51768 ms] RX PING
+
+[   51768 ms] TX {"status":"OK","command":"PING"}
+[   51768 ms] TX 
+[   51768 ms] RX PING
+
+[   51768 ms] TX {"status":"OK","command":"PING"}
+[   51768 ms] TX 
+[   51769 ms] RX PING
+
+[   51769 ms] TX {"status":"OK","command":"PING"}
+[   51769 ms] TX 
+[   51769 ms] RX PING
+
+[   51769 ms] TX {"status":"OK","command":"PING"}
+[   51769 ms] TX 
+[   51769 ms] RX PING
+
+[   51769 ms] TX {"status":"OK","command":"PING"}
+[   51769 ms] TX 
+[   51770 ms] RX SET LED OFF
+
+[   51770 ms] GPIO2 duty=0
+[   51770 ms] TX {"status":"OK","led":false}
+[   51770 ms] TX 
+[   51770 ms] RX RESET
+
+[   51770 ms] TX {"status":"OK","reset":true}
+[   51770 ms] TX 
+[   51973 ms] RX SET LED OFF
+
+[   51973 ms] GPIO2 duty=0
+[   51973 ms] TX {"status":"OK","led":false}
+[   51973 ms] TX 
+[   51973 ms] RX STATUS
+
+[   51973 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   51974 ms] RX STATUS
+
+[   51974 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   51974 ms] RX STATUS
+
+[   51974 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   51975 ms] RX STATUS
+
+[   51975 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   51975 ms] RX STATUS
+
+[   51975 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   51976 ms] RX SET LED OFF
+
+[   51976 ms] GPIO2 duty=0
+[   51976 ms] TX {"status":"OK","led":false}
+[   51976 ms] TX 
+[   51976 ms] RX RESET
+
+[   51976 ms] TX {"status":"OK","reset":true}
+[   51976 ms] TX 
+[   52176 ms] RX SET LED OFF
+
+[   52176 ms] GPIO2 duty=0
+[   52176 ms] TX {"status":"OK","led":false}
+[   52177 ms] TX 
+[   52177 ms] RX GET TEMP
+
+[   52177 ms] TX {"status":"OK","temperature":24.5
+[   52178 ms] RX GET TEMP
+
+[   52178 ms] TX {"status":"OK","temperature":24.5
+[   52178 ms] RX GET TEMP
+
+[   52178 ms] TX {"status":"OK","temperature":24.5
+[   52178 ms] RX GET TEMP
+
+[   52178 ms] TX {"status":"OK","temperature":24.5
+[   52178 ms] RX GET TEMP
+
+[   52179 ms] TX {"status":"OK","temperature":24.5
+[   52179 ms] RX SET LED OFF
+
+[   52179 ms] GPIO2 duty=0
+[   52179 ms] TX {"status":"OK","led":false}
+[   52179 ms] TX 
+[   52179 ms] RX RESET
+
+[   52179 ms] TX {"status":"OK","reset":true}
+[   52179 ms] TX 
+[   52381 ms] RX SET LED OFF
+
+[   52381 ms] GPIO2 duty=0
+[   52381 ms] TX {"status":"OK","led":false}
+[   52381 ms] TX 
+[   52382 ms] RX SET PWM 10
+
+[   52382 ms] GPIO2 duty=25
+[   52382 ms] TX {"status":"OK","pwm":10}
+[   52382 ms] RX SET PWM 10
+
+[   52382 ms] GPIO2 duty=25
+[   52382 ms] TX {"status":"OK","pwm":10}
+[   52382 ms] RX SET PWM 10
+
+[   52382 ms] GPIO2 duty=25
+[   52382 ms] TX {"status":"OK","pwm":10}
+[   52382 ms] RX SET PWM 10
+
+[   52382 ms] GPIO2 duty=25
+[   52382 ms] TX {"status":"OK","pwm":10}
+[   52383 ms] RX SET PWM 10
+
+[   52383 ms] GPIO2 duty=25
+[   52383 ms] TX {"status":"OK","pwm":10}
+[   52383 ms] RX SET LED OFF
+
+[   52383 ms] GPIO2 duty=0
+[   52383 ms] TX {"status":"OK","led":false}
+[   52383 ms] TX 
+[   52384 ms] RX RESET
+
+[   52384 ms] TX {"status":"OK","reset":true}
+[   52384 ms] TX 
+[   52585 ms] RX SET LED ON
+
+[   52586 ms] GPIO2 duty=255
+[   52586 ms] TX {"status":"OK","led":true}
+[   52586 ms] TX 
+[   52586 ms] RX SET LED OFF
+
+[   52586 ms] GPIO2 duty=0
+[   52586 ms] TX {"status":"OK","led":false}
+[   52586 ms] TX 
+[   52587 ms] RX RESET
+
+[   52587 ms] TX {"status":"OK","reset":true}
+[   52587 ms] TX 
+[   52789 ms] RX SET LED ON
+
+[   52789 ms] GPIO2 duty=255
+[   52789 ms] TX {"status":"OK","led":true}
+[   52789 ms] TX 
+[   52789 ms] RX RESET
+
+[   52789 ms] TX {"status":"OK","reset":true}
+[   52789 ms] TX 
+[   52789 ms] RX STATUS
+
+[   52789 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   52792 ms] RX RESET
+
+[   52792 ms] TX {"status":"OK","reset":true}
+[   52792 ms] TX 
+[   52995 ms] RX GET TEMP
+
+[   52995 ms] TX {"status":"OK","temperature":24.5
+[   53005 ms] RX RESET
+
+[   53005 ms] TX {"status":"OK","reset":true}
+[   53005 ms] TX 
+[   53207 ms] RX PING
+
+[   53207 ms] TX {"status":"OK","command":"PING"}
+[   53207 ms] TX 
+[   53208 ms] RX RESET
+
+[   53208 ms] TX {"status":"OK","reset":true}
+[   53208 ms] TX 
+[   53410 ms] RX STATUS
+
+[   53410 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   53411 ms] RX RESET
+
+[   53411 ms] TX {"status":"OK","reset":true}
+[   53411 ms] TX 
+[   53613 ms] RX NO_RESPONSE
+
+[   54614 ms] RX RESET
+
+[   54614 ms] TX {"status":"OK","reset":true}
+[   54614 ms] TX 
+[   55153 ms] RX SET PWM 0
+
+[   55153 ms] GPIO2 duty=0
+[   55153 ms] TX {"status":"OK","pwm":0}
+[   55154 ms] RX RESET
+
+[   55154 ms] TX {"status":"OK","reset":true}
+[   55154 ms] TX 
+[   55355 ms] RX SET PWM 1
+
+[   55355 ms] GPIO2 duty=2
+[   55355 ms] TX {"status":"OK","pwm":1}
+[   55356 ms] RX RESET
+
+[   55356 ms] TX {"status":"OK","reset":true}
+[   55356 ms] TX 
+[   55559 ms] RX SET PWM 50
+
+[   55559 ms] GPIO2 duty=127
+[   55559 ms] TX {"status":"OK","pwm":50}
+[   55559 ms] RX RESET
+
+[   55559 ms] TX {"status":"OK","reset":true}
+[   55559 ms] TX 
+[   55761 ms] RX SET PWM 99
+
+[   55761 ms] GPIO2 duty=252
+[   55761 ms] TX {"status":"OK","pwm":99}
+[   55761 ms] RX RESET
+
+[   55761 ms] TX {"status":"OK","reset":true}
+[   55761 ms] TX 
+[   55964 ms] RX SET PWM 100
+
+[   55964 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   55964 ms] TX 
+[   55972 ms] RX RESET
+
+[   55972 ms] TX {"status":"OK","reset":true}
+[   55972 ms] TX 
+[   56173 ms] RX SET PWM -1
+
+[   56173 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   56173 ms] TX 
+[   56174 ms] RX RESET
+
+[   56174 ms] TX {"status":"OK","reset":true}
+[   56174 ms] TX 
+[   56375 ms] RX SET PWM 101
+
+[   56375 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   56375 ms] TX 
+[   56376 ms] RX RESET
+
+[   56376 ms] TX {"status":"OK","reset":true}
+[   56376 ms] TX 
+[   56578 ms] RX SET PWM 999
+
+[   56578 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   56578 ms] TX 
+[   56579 ms] RX RESET
+
+[   56579 ms] TX {"status":"OK","reset":true}
+[   56579 ms] TX 
+[   56780 ms] RX SET LED OFF
+
+[   56780 ms] GPIO2 duty=0
+[   56780 ms] TX {"status":"OK","led":false}
+[   56780 ms] TX 
+[   56781 ms] RX SET LED ON
+
+[   56781 ms] GPIO2 duty=255
+[   56781 ms] TX {"status":"OK","led":true}
+[   56781 ms] TX 
+[   56781 ms] RX STATUS
+
+[   56781 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   56782 ms] RX SET LED OFF
+
+[   56782 ms] GPIO2 duty=0
+[   56782 ms] TX {"status":"OK","led":false}
+[   56782 ms] TX 
+[   56782 ms] RX RESET
+
+[   56782 ms] TX {"status":"OK","reset":true}
+[   56782 ms] TX 
+[   56984 ms] RX SET LED OFF
+
+[   56984 ms] GPIO2 duty=0
+[   56984 ms] TX {"status":"OK","led":false}
+[   56984 ms] TX 
+[   56985 ms] RX SET LED ON
+
+[   56985 ms] GPIO2 duty=255
+[   56985 ms] TX {"status":"OK","led":true}
+[   56985 ms] TX 
+[   56986 ms] RX SET LED OFF
+
+[   56986 ms] GPIO2 duty=0
+[   56986 ms] TX {"status":"OK","led":false}
+[   56986 ms] TX 
+[   56986 ms] RX STATUS
+
+[   56986 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   56986 ms] RX SET LED OFF
+
+[   56986 ms] GPIO2 duty=0
+[   56986 ms] TX {"status":"OK","led":false}
+[   56986 ms] TX 
+[   56987 ms] RX RESET
+
+[   56987 ms] TX {"status":"OK","reset":true}
+[   56987 ms] TX 
+[   57187 ms] RX SET LED OFF
+
+[   57187 ms] GPIO2 duty=0
+[   57187 ms] TX {"status":"OK","led":false}
+[   57187 ms] TX 
+[   57188 ms] RX SET PWM 25
+
+[   57188 ms] GPIO2 duty=63
+[   57188 ms] TX {"status":"OK","pwm":25}
+[   57188 ms] RX SET PWM 0
+
+[   57188 ms] GPIO2 duty=0
+[   57188 ms] TX {"status":"OK","pwm":0}
+[   57188 ms] RX STATUS
+
+[   57188 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   57189 ms] RX SET LED OFF
+
+[   57189 ms] GPIO2 duty=0
+[   57189 ms] TX {"status":"OK","led":false}
+[   57189 ms] TX 
+[   57189 ms] RX RESET
+
+[   57189 ms] TX {"status":"OK","reset":true}
+[   57189 ms] TX 
+[   57391 ms] RX SET LED OFF
+
+[   57391 ms] GPIO2 duty=0
+[   57391 ms] TX {"status":"OK","led":false}
+[   57391 ms] TX 
+[   57392 ms] RX SET PWM 25
+
+[   57392 ms] GPIO2 duty=63
+[   57392 ms] TX {"status":"OK","pwm":25}
+[   57392 ms] RX SET PWM 1
+
+[   57392 ms] GPIO2 duty=2
+[   57392 ms] TX {"status":"OK","pwm":1}
+[   57392 ms] RX STATUS
+
+[   57392 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   57392 ms] RX SET LED OFF
+
+[   57392 ms] GPIO2 duty=0
+[   57392 ms] TX {"status":"OK","led":false}
+[   57393 ms] TX 
+[   57393 ms] RX RESET
+
+[   57393 ms] TX {"status":"OK","reset":true}
+[   57393 ms] TX 
+[   57594 ms] RX SET LED OFF
+
+[   57594 ms] GPIO2 duty=0
+[   57594 ms] TX {"status":"OK","led":false}
+[   57594 ms] TX 
+[   57596 ms] RX SET PWM 25
+
+[   57596 ms] GPIO2 duty=63
+[   57596 ms] TX {"status":"OK","pwm":25}
+[   57597 ms] RX SET PWM 50
+
+[   57597 ms] GPIO2 duty=127
+[   57597 ms] TX {"status":"OK","pwm":50}
+[   57597 ms] RX STATUS
+
+[   57597 ms] TX {"status":"OK","led":true,"pwm":127,"heap":287512}
+[   57598 ms] RX SET LED OFF
+
+[   57598 ms] GPIO2 duty=0
+[   57598 ms] TX {"status":"OK","led":false}
+[   57598 ms] TX 
+[   57598 ms] RX RESET
+
+[   57598 ms] TX {"status":"OK","reset":true}
+[   57598 ms] TX 
+[   57799 ms] RX SET LED OFF
+
+[   57799 ms] GPIO2 duty=0
+[   57799 ms] TX {"status":"OK","led":false}
+[   57799 ms] TX 
+[   57800 ms] RX SET PWM 25
+
+[   57800 ms] GPIO2 duty=63
+[   57800 ms] TX {"status":"OK","pwm":25}
+[   57800 ms] RX SET PWM 99
+
+[   57800 ms] GPIO2 duty=252
+[   57800 ms] TX {"status":"OK","pwm":99}
+[   57800 ms] RX STATUS
+
+[   57800 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   57801 ms] RX SET LED OFF
+
+[   57801 ms] GPIO2 duty=0
+[   57801 ms] TX {"status":"OK","led":false}
+[   57801 ms] TX 
+[   57801 ms] RX RESET
+
+[   57801 ms] TX {"status":"OK","reset":true}
+[   57801 ms] TX 
+[   58002 ms] RX SET LED OFF
+
+[   58002 ms] GPIO2 duty=0
+[   58002 ms] TX {"status":"OK","led":false}
+[   58002 ms] TX 
+[   58003 ms] RX PING
+
+[   58003 ms] TX {"status":"OK","command":"PING"}
+[   58003 ms] TX 
+[   58104 ms] RX SET LED OFF
+
+[   58104 ms] GPIO2 duty=0
+[   58104 ms] TX {"status":"OK","led":false}
+[   58104 ms] TX 
+[   58104 ms] RX RESET
+
+[   58104 ms] TX {"status":"OK","reset":true}
+[   58104 ms] TX 
+[   58306 ms] RX SET LED OFF
+
+[   58306 ms] GPIO2 duty=0
+[   58306 ms] TX {"status":"OK","led":false}
+[   58306 ms] TX 
+[   58307 ms] RX STATUS
+
+[   58307 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   58408 ms] RX SET LED OFF
+
+[   58408 ms] GPIO2 duty=0
+[   58408 ms] TX {"status":"OK","led":false}
+[   58408 ms] TX 
+[   58409 ms] RX RESET
+
+[   58409 ms] TX {"status":"OK","reset":true}
+[   58409 ms] TX 
+[   58611 ms] RX SET LED OFF
+
+[   58611 ms] GPIO2 duty=0
+[   58611 ms] TX {"status":"OK","led":false}
+[   58611 ms] TX 
+[   58612 ms] RX GET TEMP
+
+[   58612 ms] TX {"status":"OK","temperature":24.5
+[   58632 ms] RX SET LED OFF
+
+[   58632 ms] GPIO2 duty=0
+[   58632 ms] TX {"status":"OK","led":false}
+[   58632 ms] TX 
+[   58632 ms] RX RESET
+
+[   58632 ms] TX {"status":"OK","reset":true}
+[   58632 ms] TX 
+[   58833 ms] RX SET LED OFF
+
+[   58833 ms] GPIO2 duty=0
+[   58833 ms] TX {"status":"OK","led":false}
+[   58833 ms] TX 
+[   58834 ms] RX SET LED ON
+
+[   58834 ms] GPIO2 duty=255
+[   58834 ms] TX {"status":"OK","led":true}
+[   58834 ms] TX 
+[   58936 ms] RX SET LED OFF
+
+[   58936 ms] GPIO2 duty=0
+[   58936 ms] TX {"status":"OK","led":false}
+[   58936 ms] TX 
+[   58937 ms] RX RESET
+
+[   58937 ms] TX {"status":"OK","reset":true}
+[   58937 ms] TX 
+[   59137 ms] RX SET LED OFF
+
+[   59137 ms] GPIO2 duty=0
+[   59137 ms] TX {"status":"OK","led":false}
+[   59137 ms] TX 
+[   59138 ms] RX SET LED OFF
+
+[   59138 ms] GPIO2 duty=0
+[   59138 ms] TX {"status":"OK","led":false}
+[   59138 ms] TX 
+[   59240 ms] RX SET LED OFF
+
+[   59240 ms] GPIO2 duty=0
+[   59240 ms] TX {"status":"OK","led":false}
+[   59240 ms] TX 
+[   59240 ms] RX RESET
+
+[   59240 ms] TX {"status":"OK","reset":true}
+[   59240 ms] TX 
+[   59442 ms] RX SET LED OFF
+
+[   59442 ms] GPIO2 duty=0
+[   59442 ms] TX {"status":"OK","led":false}
+[   59442 ms] TX 
+[   59443 ms] RX SET PWM 10
+
+[   59443 ms] GPIO2 duty=25
+[   59443 ms] TX {"status":"OK","pwm":10}
+[   59544 ms] RX SET LED OFF
+
+[   59544 ms] GPIO2 duty=0
+[   59544 ms] TX {"status":"OK","led":false}
+[   59544 ms] TX 
+[   59544 ms] RX RESET
+
+[   59544 ms] TX {"status":"OK","reset":true}
+[   59544 ms] TX 
+[   59746 ms] RX SET LED OFF
+
+[   59746 ms] GPIO2 duty=0
+[   59746 ms] TX {"status":"OK","led":false}
+[   59746 ms] TX 
+[   59747 ms] RX RESET
+
+[   59747 ms] TX {"status":"OK","reset":true}
+[   59747 ms] TX 
+[   59849 ms] RX SET LED OFF
+
+[   59849 ms] GPIO2 duty=0
+[   59849 ms] TX {"status":"OK","led":false}
+[   59849 ms] TX 
+[   59849 ms] RX RESET
+
+[   59849 ms] TX {"status":"OK","reset":true}
+[   59849 ms] TX 
+[   60049 ms] RX SET LED OFF
+
+[   60049 ms] GPIO2 duty=0
+[   60049 ms] TX {"status":"OK","led":false}
+[   60049 ms] TX 
+[   60050 ms] RX HELLO
+
+[   60050 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   60050 ms] TX 
+[   60151 ms] RX SET LED OFF
+
+[   60151 ms] GPIO2 duty=0
+[   60151 ms] TX {"status":"OK","led":false}
+[   60151 ms] TX 
+[   60152 ms] RX RESET
+
+[   60152 ms] TX {"status":"OK","reset":true}
+[   60152 ms] TX 
+[   60353 ms] RX SET LED OFF
+
+[   60353 ms] GPIO2 duty=0
+[   60353 ms] TX {"status":"OK","led":false}
+[   60353 ms] TX 
+[   60354 ms] RX SET LED ON
+
+[   60354 ms] GPIO2 duty=255
+[   60354 ms] TX {"status":"OK","led":true}
+[   60354 ms] TX 
+[   60354 ms] RX RESET
+
+[   60354 ms] TX {"status":"OK","reset":true}
+[   60354 ms] TX 
+[   60355 ms] RX STATUS
+
+[   60355 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   60360 ms] RX SET LED OFF
+
+[   60360 ms] GPIO2 duty=0
+[   60360 ms] TX {"status":"OK","led":false}
+[   60360 ms] TX 
+[   60360 ms] RX RESET
+
+[   60360 ms] TX {"status":"OK","reset":true}
+[   60360 ms] TX 
+[   60561 ms] RX SET LED OFF
+
+[   60561 ms] GPIO2 duty=0
+[   60561 ms] TX {"status":"OK","led":false}
+[   60561 ms] TX 
+[   60562 ms] RX SET PWM 1
+
+[   60562 ms] GPIO2 duty=2
+[   60562 ms] TX {"status":"OK","pwm":1}
+[   60562 ms] RX RESET
+
+[   60562 ms] TX {"status":"OK","reset":true}
+[   60562 ms] TX 
+[   60562 ms] RX STATUS
+
+[   60562 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   60567 ms] RX SET LED OFF
+
+[   60567 ms] GPIO2 duty=0
+[   60567 ms] TX {"status":"OK","led":false}
+[   60567 ms] TX 
+[   60567 ms] RX RESET
+
+[   60567 ms] TX {"status":"OK","reset":true}
+[   60567 ms] TX 
+[   60768 ms] RX SET LED OFF
+
+[   60768 ms] GPIO2 duty=0
+[   60768 ms] TX {"status":"OK","led":false}
+[   60768 ms] TX 
+[   60769 ms] RX SET PWM 50
+
+[   60770 ms] GPIO2 duty=127
+[   60770 ms] TX {"status":"OK","pwm":50}
+[   60770 ms] RX RESET
+
+[   60770 ms] TX {"status":"OK","reset":true}
+[   60770 ms] TX 
+[   60770 ms] RX STATUS
+
+[   60770 ms] TX {"status":"OK","led":true,"pwm":127,"heap":287512}
+[   60778 ms] RX SET LED OFF
+
+[   60778 ms] GPIO2 duty=0
+[   60778 ms] TX {"status":"OK","led":false}
+[   60778 ms] TX 
+[   60778 ms] RX RESET
+
+[   60778 ms] TX {"status":"OK","reset":true}
+[   60778 ms] TX 
+[   60981 ms] RX SET LED OFF
+
+[   60981 ms] GPIO2 duty=0
+[   60981 ms] TX {"status":"OK","led":false}
+[   60981 ms] TX 
+[   60981 ms] RX SET PWM 99
+
+[   60981 ms] GPIO2 duty=252
+[   60981 ms] TX {"status":"OK","pwm":99}
+[   60982 ms] RX RESET
+
+[   60982 ms] TX {"status":"OK","reset":true}
+[   60982 ms] TX 
+[   60982 ms] RX STATUS
+
+[   60982 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   60986 ms] RX SET LED OFF
+
+[   60987 ms] GPIO2 duty=0
+[   60987 ms] TX {"status":"OK","led":false}
+[   60987 ms] TX 
+[   60987 ms] RX RESET
+
+[   60987 ms] TX {"status":"OK","reset":true}
+[   60987 ms] TX 
+[   61190 ms] RX SET LED OFF
+
+[   61190 ms] GPIO2 duty=0
+[   61190 ms] TX {"status":"OK","led":false}
+[   61190 ms] TX 
+[   61193 ms] RX SET LED OFF
+
+[   61193 ms] GPIO2 duty=0
+[   61193 ms] TX {"status":"OK","led":false}
+[   61193 ms] TX 
+[   61193 ms] RX RESET
+
+[   61193 ms] TX {"status":"OK","reset":true}
+[   61193 ms] TX 
+[   61193 ms] RX STATUS
+
+[   61193 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   61194 ms] RX SET LED OFF
+
+[   61194 ms] GPIO2 duty=0
+[   61194 ms] TX {"status":"OK","led":false}
+[   61194 ms] TX 
+[   61194 ms] RX RESET
+
+[   61194 ms] TX {"status":"OK","reset":true}
+[   61194 ms] TX 
+[   61395 ms] RX SET LED OFF
+
+[   61395 ms] GPIO2 duty=0
+[   61395 ms] TX {"status":"OK","led":false}
+[   61395 ms] TX 
+[   61396 ms] RX SET PWM 25
+
+[   61396 ms] GPIO2 duty=63
+[   61396 ms] TX {"status":"OK","pwm":25}
+[   61397 ms] RX STATUS
+
+[   61397 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   61397 ms] RX SET PWM abc
+
+[   61397 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   61397 ms] TX 
+[   61397 ms] RX STATUS
+
+[   61397 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   61398 ms] RX SET LED OFF
+
+[   61398 ms] GPIO2 duty=0
+[   61398 ms] TX {"status":"OK","led":false}
+[   61398 ms] TX 
+[   61399 ms] RX RESET
+
+[   61399 ms] TX {"status":"OK","reset":true}
+[   61399 ms] TX 
+[   61600 ms] RX SET LED OFF
+
+[   61600 ms] GPIO2 duty=0
+[   61600 ms] TX {"status":"OK","led":false}
+[   61600 ms] TX 
+[   61601 ms] RX SET PWM 25
+
+[   61601 ms] GPIO2 duty=63
+[   61601 ms] TX {"status":"OK","pwm":25}
+[   61602 ms] RX STATUS
+
+[   61602 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   61602 ms] RX SET PWM 5.5
+
+[   61602 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   61602 ms] TX 
+[   61603 ms] RX STATUS
+
+[   61603 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   61603 ms] RX SET LED OFF
+
+[   61603 ms] GPIO2 duty=0
+[   61603 ms] TX {"status":"OK","led":false}
+[   61603 ms] TX 
+[   61604 ms] RX RESET
+
+[   61604 ms] TX {"status":"OK","reset":true}
+[   61604 ms] TX 
+[   61805 ms] RX SET LED OFF
+
+[   61805 ms] GPIO2 duty=0
+[   61805 ms] TX {"status":"OK","led":false}
+[   61805 ms] TX 
+[   61806 ms] RX SET PWM 25
+
+[   61806 ms] GPIO2 duty=63
+[   61806 ms] TX {"status":"OK","pwm":25}
+[   61806 ms] RX STATUS
+
+[   61806 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   61806 ms] RX SET PWM +5
+
+[   61806 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   61806 ms] TX 
+[   61806 ms] RX STATUS
+
+[   61806 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   61807 ms] RX SET LED OFF
+
+[   61807 ms] GPIO2 duty=0
+[   61807 ms] TX {"status":"OK","led":false}
+[   61807 ms] TX 
+[   61807 ms] RX RESET
+
+[   61807 ms] TX {"status":"OK","reset":true}
+[   61807 ms] TX 
+[   62008 ms] RX SET LED OFF
+
+[   62008 ms] GPIO2 duty=0
+[   62008 ms] TX {"status":"OK","led":false}
+[   62008 ms] TX 
+[   62009 ms] RX SET PWM 25
+
+[   62009 ms] GPIO2 duty=63
+[   62009 ms] TX {"status":"OK","pwm":25}
+[   62009 ms] RX STATUS
+
+[   62009 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62009 ms] RX SET PWM 1e2
+
+[   62009 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   62009 ms] TX 
+[   62010 ms] RX STATUS
+
+[   62010 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62010 ms] RX SET LED OFF
+
+[   62010 ms] GPIO2 duty=0
+[   62010 ms] TX {"status":"OK","led":false}
+[   62010 ms] TX 
+[   62010 ms] RX RESET
+
+[   62010 ms] TX {"status":"OK","reset":true}
+[   62010 ms] TX 
+[   62211 ms] RX SET LED OFF
+
+[   62211 ms] GPIO2 duty=0
+[   62211 ms] TX {"status":"OK","led":false}
+[   62211 ms] TX 
+[   62212 ms] RX SET PWM 25
+
+[   62212 ms] GPIO2 duty=63
+[   62212 ms] TX {"status":"OK","pwm":25}
+[   62212 ms] RX STATUS
+
+[   62212 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62213 ms] RX SET PWM 0x10
+
+[   62213 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   62213 ms] TX 
+[   62213 ms] RX STATUS
+
+[   62213 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62213 ms] RX SET LED OFF
+
+[   62213 ms] GPIO2 duty=0
+[   62213 ms] TX {"status":"OK","led":false}
+[   62213 ms] TX 
+[   62214 ms] RX RESET
+
+[   62214 ms] TX {"status":"OK","reset":true}
+[   62214 ms] TX 
+[   62415 ms] RX SET LED OFF
+
+[   62415 ms] GPIO2 duty=0
+[   62415 ms] TX {"status":"OK","led":false}
+[   62415 ms] TX 
+[   62416 ms] RX SET PWM 25
+
+[   62416 ms] GPIO2 duty=63
+[   62416 ms] TX {"status":"OK","pwm":25}
+[   62416 ms] RX STATUS
+
+[   62416 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62416 ms] RX SET PWM 50 50
+
+[   62416 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   62416 ms] TX 
+[   62417 ms] RX STATUS
+
+[   62417 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62417 ms] RX SET LED OFF
+
+[   62417 ms] GPIO2 duty=0
+[   62417 ms] TX {"status":"OK","led":false}
+[   62418 ms] TX 
+[   62418 ms] RX RESET
+
+[   62418 ms] TX {"status":"OK","reset":true}
+[   62418 ms] TX 
+[   62619 ms] RX SET LED OFF
+
+[   62619 ms] GPIO2 duty=0
+[   62619 ms] TX {"status":"OK","led":false}
+[   62619 ms] TX 
+[   62620 ms] RX SET PWM 25
+
+[   62620 ms] GPIO2 duty=63
+[   62620 ms] TX {"status":"OK","pwm":25}
+[   62620 ms] RX STATUS
+
+[   62620 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62620 ms] RX SET PWM -0
+
+[   62620 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   62621 ms] TX 
+[   62621 ms] RX STATUS
+
+[   62621 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62621 ms] RX SET LED OFF
+
+[   62621 ms] GPIO2 duty=0
+[   62621 ms] TX {"status":"OK","led":false}
+[   62621 ms] TX 
+[   62621 ms] RX RESET
+
+[   62621 ms] TX {"status":"OK","reset":true}
+[   62621 ms] TX 
+[   62822 ms] RX SET LED OFF
+
+[   62822 ms] GPIO2 duty=0
+[   62822 ms] TX {"status":"OK","led":false}
+[   62823 ms] TX 
+[   62823 ms] RX SET PWM 25
+
+[   62823 ms] GPIO2 duty=63
+[   62823 ms] TX {"status":"OK","pwm":25}
+[   62824 ms] RX STATUS
+
+[   62824 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62824 ms] RX SET PWM
+
+[   62824 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   62824 ms] TX 
+[   62824 ms] RX STATUS
+
+[   62824 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   62825 ms] RX SET LED OFF
+
+[   62825 ms] GPIO2 duty=0
+[   62825 ms] TX {"status":"OK","led":false}
+[   62825 ms] TX 
+[   62825 ms] RX RESET
+
+[   62825 ms] TX {"status":"OK","reset":true}
+[   62825 ms] TX 
+[   63026 ms] RX SET LED OFF
+
+[   63026 ms] GPIO2 duty=0
+[   63026 ms] TX {"status":"OK","led":false}
+[   63026 ms] TX 
+[   63027 ms] RX SET PWM 25
+
+[   63027 ms] GPIO2 duty=63
+[   63027 ms] TX {"status":"OK","pwm":25}
+[   63027 ms] RX STATUS
+
+[   63027 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63027 ms] RX SET LED BLINK
+
+[   63027 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   63027 ms] TX 
+[   63027 ms] RX STATUS
+
+[   63027 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63028 ms] RX SET LED OFF
+
+[   63028 ms] GPIO2 duty=0
+[   63028 ms] TX {"status":"OK","led":false}
+[   63028 ms] TX 
+[   63028 ms] RX RESET
+
+[   63028 ms] TX {"status":"OK","reset":true}
+[   63028 ms] TX 
+[   63229 ms] RX SET LED OFF
+
+[   63229 ms] GPIO2 duty=0
+[   63229 ms] TX {"status":"OK","led":false}
+[   63229 ms] TX 
+[   63230 ms] RX SET PWM 25
+
+[   63230 ms] GPIO2 duty=63
+[   63230 ms] TX {"status":"OK","pwm":25}
+[   63230 ms] RX STATUS
+
+[   63230 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63230 ms] RX set pwm 50
+
+[   63230 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   63230 ms] TX 
+[   63231 ms] RX STATUS
+
+[   63231 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63232 ms] RX SET LED OFF
+
+[   63232 ms] GPIO2 duty=0
+[   63232 ms] TX {"status":"OK","led":false}
+[   63232 ms] TX 
+[   63232 ms] RX RESET
+
+[   63232 ms] TX {"status":"OK","reset":true}
+[   63232 ms] TX 
+[   63434 ms] RX SET LED OFF
+
+[   63434 ms] GPIO2 duty=0
+[   63434 ms] TX {"status":"OK","led":false}
+[   63434 ms] TX 
+[   63434 ms] RX SET PWM 25
+
+[   63434 ms] GPIO2 duty=63
+[   63434 ms] TX {"status":"OK","pwm":25}
+[   63435 ms] RX STATUS
+
+[   63435 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63435 ms] RX PWM 50
+
+[   63435 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   63435 ms] TX 
+[   63435 ms] RX STATUS
+
+[   63435 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63436 ms] RX SET LED OFF
+
+[   63436 ms] GPIO2 duty=0
+[   63436 ms] TX {"status":"OK","led":false}
+[   63436 ms] TX 
+[   63436 ms] RX RESET
+
+[   63436 ms] TX {"status":"OK","reset":true}
+[   63436 ms] TX 
+[   63637 ms] RX SET LED OFF
+
+[   63637 ms] GPIO2 duty=0
+[   63637 ms] TX {"status":"OK","led":false}
+[   63637 ms] TX 
+[   63638 ms] RX SET PWM 25
+
+[   63638 ms] GPIO2 duty=63
+[   63638 ms] TX {"status":"OK","pwm":25}
+[   63638 ms] RX STATUS
+
+[   63638 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63639 ms] RX 
+
+[   63639 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   63639 ms] TX 
+[   63639 ms] RX STATUS
+
+[   63639 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63639 ms] RX SET LED OFF
+
+[   63639 ms] GPIO2 duty=0
+[   63639 ms] TX {"status":"OK","led":false}
+[   63639 ms] TX 
+[   63640 ms] RX RESET
+
+[   63640 ms] TX {"status":"OK","reset":true}
+[   63640 ms] TX 
+[   63841 ms] RX SET LED OFF
+
+[   63841 ms] GPIO2 duty=0
+[   63841 ms] TX {"status":"OK","led":false}
+[   63841 ms] TX 
+[   63843 ms] RX SET PWM 25
+
+[   63843 ms] GPIO2 duty=63
+[   63843 ms] TX {"status":"OK","pwm":25}
+[   63843 ms] RX STATUS
+
+[   63843 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63843 ms] RX SET PWM -1
+
+[   63843 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   63843 ms] TX 
+[   63844 ms] RX STATUS
+
+[   63844 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   63844 ms] RX SET LED OFF
+
+[   63844 ms] GPIO2 duty=0
+[   63844 ms] TX {"status":"OK","led":false}
+[   63844 ms] TX 
+[   63844 ms] RX RESET
+
+[   63844 ms] TX {"status":"OK","reset":true}
+[   63844 ms] TX 
+[   64047 ms] RX SET LED OFF
+
+[   64047 ms] GPIO2 duty=0
+[   64047 ms] TX {"status":"OK","led":false}
+[   64047 ms] TX 
+[   64048 ms] RX SET PWM 25
+
+[   64048 ms] GPIO2 duty=63
+[   64048 ms] TX {"status":"OK","pwm":25}
+[   64049 ms] RX STATUS
+
+[   64049 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   64049 ms] RX SET PWM 0
+
+[   64049 ms] GPIO2 duty=0
+[   64049 ms] TX {"status":"OK","pwm":0}
+[   64049 ms] RX STATUS
+
+[   64049 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   64050 ms] RX SET LED OFF
+
+[   64050 ms] GPIO2 duty=0
+[   64050 ms] TX {"status":"OK","led":false}
+[   64050 ms] TX 
+[   64050 ms] RX RESET
+
+[   64050 ms] TX {"status":"OK","reset":true}
+[   64050 ms] TX 
+[   64251 ms] RX SET LED OFF
+
+[   64251 ms] GPIO2 duty=0
+[   64251 ms] TX {"status":"OK","led":false}
+[   64251 ms] TX 
+[   64252 ms] RX SET PWM 25
+
+[   64252 ms] GPIO2 duty=63
+[   64252 ms] TX {"status":"OK","pwm":25}
+[   64253 ms] RX STATUS
+
+[   64253 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   64253 ms] RX SET PWM 1
+
+[   64253 ms] GPIO2 duty=2
+[   64253 ms] TX {"status":"OK","pwm":1}
+[   64253 ms] RX STATUS
+
+[   64253 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   64254 ms] RX SET LED OFF
+
+[   64254 ms] GPIO2 duty=0
+[   64254 ms] TX {"status":"OK","led":false}
+[   64254 ms] TX 
+[   64254 ms] RX RESET
+
+[   64254 ms] TX {"status":"OK","reset":true}
+[   64254 ms] TX 
+[   64455 ms] RX SET LED OFF
+
+[   64455 ms] GPIO2 duty=0
+[   64455 ms] TX {"status":"OK","led":false}
+[   64455 ms] TX 
+[   64456 ms] RX SET PWM 25
+
+[   64456 ms] GPIO2 duty=63
+[   64456 ms] TX {"status":"OK","pwm":25}
+[   64456 ms] RX STATUS
+
+[   64456 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   64457 ms] RX SET PWM 99
+
+[   64457 ms] GPIO2 duty=252
+[   64457 ms] TX {"status":"OK","pwm":99}
+[   64457 ms] RX STATUS
+
+[   64457 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   64458 ms] RX SET LED OFF
+
+[   64458 ms] GPIO2 duty=0
+[   64458 ms] TX {"status":"OK","led":false}
+[   64458 ms] TX 
+[   64458 ms] RX RESET
+
+[   64458 ms] TX {"status":"OK","reset":true}
+[   64458 ms] TX 
+[   64660 ms] RX SET LED OFF
+
+[   64660 ms] GPIO2 duty=0
+[   64660 ms] TX {"status":"OK","led":false}
+[   64660 ms] TX 
+[   64660 ms] RX SET PWM 25
+
+[   64660 ms] GPIO2 duty=63
+[   64660 ms] TX {"status":"OK","pwm":25}
+[   64661 ms] RX STATUS
+
+[   64661 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   64661 ms] RX SET PWM 100
+
+[   64661 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   64661 ms] TX 
+[   64666 ms] RX SET LED OFF
+
+[   64666 ms] GPIO2 duty=0
+[   64666 ms] TX {"status":"OK","led":false}
+[   64666 ms] TX 
+[   64666 ms] RX RESET
+
+[   64666 ms] TX {"status":"OK","reset":true}
+[   64666 ms] TX 
+[   64868 ms] RX SET LED OFF
+
+[   64868 ms] GPIO2 duty=0
+[   64868 ms] TX {"status":"OK","led":false}
+[   64868 ms] TX 
+[   64869 ms] RX SET PWM 25
+
+[   64869 ms] GPIO2 duty=63
+[   64869 ms] TX {"status":"OK","pwm":25}
+[   64869 ms] RX STATUS
+
+[   64869 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   64870 ms] RX SET PWM 101
+
+[   64870 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   64870 ms] TX 
+[   64870 ms] RX STATUS
+
+[   64870 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   64870 ms] RX SET LED OFF
+
+[   64870 ms] GPIO2 duty=0
+[   64870 ms] TX {"status":"OK","led":false}
+[   64870 ms] TX 
+[   64870 ms] RX RESET
+
+[   64870 ms] TX {"status":"OK","reset":true}
+[   64870 ms] TX 
+[   65070 ms] RX SET LED OFF
+
+[   65071 ms] GPIO2 duty=0
+[   65071 ms] TX {"status":"OK","led":false}
+[   65071 ms] TX 
+[   65071 ms] RX SET PWM 25
+
+[   65071 ms] GPIO2 duty=63
+[   65071 ms] TX {"status":"OK","pwm":25}
+[   65072 ms] RX STATUS
+
+[   65072 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   65072 ms] RX SET PWM 2147483647
+
+[   65072 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   65072 ms] TX 
+[   65072 ms] RX STATUS
+
+[   65072 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   65073 ms] RX SET LED OFF
+
+[   65073 ms] GPIO2 duty=0
+[   65073 ms] TX {"status":"OK","led":false}
+[   65073 ms] TX 
+[   65073 ms] RX RESET
+
+[   65073 ms] TX {"status":"OK","reset":true}
+[   65073 ms] TX 
+[   65274 ms] RX SET LED OFF
+
+[   65274 ms] GPIO2 duty=0
+[   65274 ms] TX {"status":"OK","led":false}
+[   65274 ms] TX 
+[   65275 ms] RX SET PWM 25
+
+[   65275 ms] GPIO2 duty=63
+[   65275 ms] TX {"status":"OK","pwm":25}
+[   65275 ms] RX STATUS
+
+[   65275 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   65276 ms] RX SET PWM 2147483648
+
+[   65276 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   65276 ms] TX 
+[   65276 ms] RX STATUS
+
+[   65276 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   65276 ms] RX SET LED OFF
+
+[   65277 ms] GPIO2 duty=0
+[   65277 ms] TX {"status":"OK","led":false}
+[   65277 ms] TX 
+[   65277 ms] RX RESET
+
+[   65277 ms] TX {"status":"OK","reset":true}
+[   65277 ms] TX 
+[   65478 ms] RX SET LED OFF
+
+[   65478 ms] GPIO2 duty=0
+[   65478 ms] TX {"status":"OK","led":false}
+[   65478 ms] TX 
+[   65479 ms] RX SET PWM 25
+
+[   65479 ms] GPIO2 duty=63
+[   65479 ms] TX {"status":"OK","pwm":25}
+[   65479 ms] RX STATUS
+
+[   65479 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   65479 ms] RX SET PWM 4294967296
+
+[   65479 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   65479 ms] TX 
+[   65480 ms] RX STATUS
+
+[   65480 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   65480 ms] RX SET LED OFF
+
+[   65480 ms] GPIO2 duty=0
+[   65480 ms] TX {"status":"OK","led":false}
+[   65480 ms] TX 
+[   65480 ms] RX RESET
+
+[   65480 ms] TX {"status":"OK","reset":true}
+[   65480 ms] TX 
+[   65681 ms] RX SET LED OFF
+
+[   65681 ms] GPIO2 duty=0
+[   65681 ms] TX {"status":"OK","led":false}
+[   65681 ms] TX 
+[   65682 ms] RX SET PWM 25
+
+[   65682 ms] GPIO2 duty=63
+[   65682 ms] TX {"status":"OK","pwm":25}
+[   65683 ms] RX STATUS
+
+[   65683 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   65683 ms] RX SET PWM 4294967396
+
+[   65683 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   65683 ms] TX 
+[   65684 ms] RX STATUS
+
+[   65684 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   65684 ms] RX SET LED OFF
+
+[   65684 ms] GPIO2 duty=0
+[   65684 ms] TX {"status":"OK","led":false}
+[   65684 ms] TX 
+[   65685 ms] RX RESET
+
+[   65685 ms] TX {"status":"OK","reset":true}
+[   65685 ms] TX 
+[   65887 ms] RX SET LED OFF
+
+[   65887 ms] GPIO2 duty=0
+[   65887 ms] TX {"status":"OK","led":false}
+[   65887 ms] TX 
+[   65888 ms] RX NO_RESPONSE
+
+[   66088 ms] RX PING
+
+[   66088 ms] TX {"status":"OK","command":"PING"}
+[   66088 ms] TX 
+[   66088 ms] RX SET LED OFF
+
+[   66088 ms] GPIO2 duty=0
+[   66088 ms] TX {"status":"OK","led":false}
+[   66088 ms] TX 
+[   66089 ms] RX RESET
+
+[   66089 ms] TX {"status":"OK","reset":true}
+[   66089 ms] TX 
+[   66290 ms] RX SET LED OFF
+
+[   66290 ms] GPIO2 duty=0
+[   66290 ms] TX {"status":"OK","led":false}
+[   66290 ms] TX 
+[   66291 ms] RX NO_RESPONSE
+
+[   66792 ms] RX PING
+
+[   66792 ms] TX {"status":"OK","command":"PING"}
+[   66792 ms] TX 
+[   66792 ms] RX SET LED OFF
+
+[   66792 ms] GPIO2 duty=0
+[   66792 ms] TX {"status":"OK","led":false}
+[   66792 ms] TX 
+[   66793 ms] RX RESET
+
+[   66793 ms] TX {"status":"OK","reset":true}
+[   66793 ms] TX 
+[   66995 ms] RX SET LED OFF
+
+[   66995 ms] GPIO2 duty=0
+[   66995 ms] TX {"status":"OK","led":false}
+[   66995 ms] TX 
+[   66996 ms] RX NO_RESPONSE
+
+[   67997 ms] RX PING
+
+[   67997 ms] TX {"status":"OK","command":"PING"}
+[   67997 ms] TX 
+[   67998 ms] RX SET LED OFF
+
+[   67998 ms] GPIO2 duty=0
+[   67998 ms] TX {"status":"OK","led":false}
+[   67998 ms] TX 
+[   67998 ms] RX RESET
+
+[   67998 ms] TX {"status":"OK","reset":true}
+[   67998 ms] TX 
+[   68198 ms] RX SET LED OFF
+
+[   68198 ms] GPIO2 duty=0
+[   68198 ms] TX {"status":"OK","led":false}
+[   68198 ms] TX 
+[   68199 ms] RX PING
+
+[   68199 ms] TX {"status":"OK","command":"PING"}
+[   68199 ms] TX 
+[   68200 ms] RX PING
+
+[   68200 ms] TX {"status":"OK","command":"PING"}
+[   68200 ms] TX 
+[   68200 ms] RX PING
+
+[   68200 ms] TX {"status":"OK","command":"PING"}
+[   68200 ms] TX 
+[   68200 ms] RX PING
+
+[   68200 ms] TX {"status":"OK","command":"PING"}
+[   68200 ms] TX 
+[   68200 ms] RX PING
+
+[   68200 ms] TX {"status":"OK","command":"PING"}
+[   68200 ms] TX 
+[   68201 ms] RX SET LED OFF
+
+[   68201 ms] GPIO2 duty=0
+[   68201 ms] TX {"status":"OK","led":false}
+[   68201 ms] TX 
+[   68201 ms] RX RESET
+
+[   68201 ms] TX {"status":"OK","reset":true}
+[   68201 ms] TX 
+[   68402 ms] RX SET LED OFF
+
+[   68402 ms] GPIO2 duty=0
+[   68402 ms] TX {"status":"OK","led":false}
+[   68402 ms] TX 
+[   68403 ms] RX STATUS
+
+[   68403 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   68403 ms] RX STATUS
+
+[   68403 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   68403 ms] RX STATUS
+
+[   68403 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   68404 ms] RX STATUS
+
+[   68404 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   68404 ms] RX STATUS
+
+[   68404 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   68404 ms] RX SET LED OFF
+
+[   68404 ms] GPIO2 duty=0
+[   68404 ms] TX {"status":"OK","led":false}
+[   68404 ms] TX 
+[   68405 ms] RX RESET
+
+[   68405 ms] TX {"status":"OK","reset":true}
+[   68405 ms] TX 
+[   68606 ms] RX SET LED OFF
+
+[   68606 ms] GPIO2 duty=0
+[   68606 ms] TX {"status":"OK","led":false}
+[   68606 ms] TX 
+[   68607 ms] RX GET TEMP
+
+[   68607 ms] TX {"status":"OK","temperature":24.5
+[   68607 ms] RX GET TEMP
+
+[   68607 ms] TX {"status":"OK","temperature":24.5
+[   68608 ms] RX GET TEMP
+
+[   68608 ms] TX {"status":"OK","temperature":24.5
+[   68608 ms] RX GET TEMP
+
+[   68608 ms] TX {"status":"OK","temperature":24.5
+[   68608 ms] RX GET TEMP
+
+[   68608 ms] TX {"status":"OK","temperature":24.5
+[   68609 ms] RX SET LED OFF
+
+[   68609 ms] GPIO2 duty=0
+[   68609 ms] TX {"status":"OK","led":false}
+[   68609 ms] TX 
+[   68609 ms] RX RESET
+
+[   68609 ms] TX {"status":"OK","reset":true}
+[   68609 ms] TX 
+[   68815 ms] RX SET LED OFF
+
+[   68815 ms] GPIO2 duty=0
+[   68815 ms] TX {"status":"OK","led":false}
+[   68815 ms] TX 
+[   68816 ms] RX SET PWM 10
+
+[   68816 ms] GPIO2 duty=25
+[   68816 ms] TX {"status":"OK","pwm":10}
+[   68816 ms] RX SET PWM 10
+
+[   68816 ms] GPIO2 duty=25
+[   68816 ms] TX {"status":"OK","pwm":10}
+[   68816 ms] RX SET PWM 10
+
+[   68816 ms] GPIO2 duty=25
+[   68816 ms] TX {"status":"OK","pwm":10}
+[   68817 ms] RX SET PWM 10
+
+[   68817 ms] GPIO2 duty=25
+[   68817 ms] TX {"status":"OK","pwm":10}
+[   68817 ms] RX SET PWM 10
+
+[   68817 ms] GPIO2 duty=25
+[   68817 ms] TX {"status":"OK","pwm":10}
+[   68818 ms] RX SET LED OFF
+
+[   68818 ms] GPIO2 duty=0
+[   68818 ms] TX {"status":"OK","led":false}
+[   68818 ms] TX 
+[   68818 ms] RX RESET
+
+[   68818 ms] TX {"status":"OK","reset":true}
+[   68818 ms] TX 
+[   69020 ms] RX SET LED ON
+
+[   69020 ms] GPIO2 duty=255
+[   69020 ms] TX {"status":"OK","led":true}
+[   69020 ms] TX 
+[   69020 ms] RX SET LED OFF
+
+[   69020 ms] GPIO2 duty=0
+[   69020 ms] TX {"status":"OK","led":false}
+[   69020 ms] TX 
+[   69021 ms] RX RESET
+
+[   69021 ms] TX {"status":"OK","reset":true}
+[   69021 ms] TX 
+[   69223 ms] RX SET LED ON
+
+[   69223 ms] GPIO2 duty=255
+[   69223 ms] TX {"status":"OK","led":true}
+[   69223 ms] TX 
+[   69223 ms] RX RESET
+
+[   69223 ms] TX {"status":"OK","reset":true}
+[   69223 ms] TX 
+[   69223 ms] RX STATUS
+
+[   69223 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   69225 ms] RX RESET
+
+[   69225 ms] TX {"status":"OK","reset":true}
+[   69225 ms] TX 
+[   69427 ms] RX GET TEMP
+
+[   69427 ms] TX {"status":"OK","temperature":24.5
+[   69438 ms] RX RESET
+
+[   69438 ms] TX {"status":"OK","reset":true}
+[   69438 ms] TX 
+[   69639 ms] RX PING
+
+[   69639 ms] TX {"status":"OK","command":"PING"}
+[   69640 ms] TX 
+[   69640 ms] RX RESET
+
+[   69640 ms] TX {"status":"OK","reset":true}
+[   69640 ms] TX 
+[   69841 ms] RX STATUS
+
+[   69841 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   69843 ms] RX RESET
+
+[   69843 ms] TX {"status":"OK","reset":true}
+[   69843 ms] TX 
+[   70044 ms] RX NO_RESPONSE
+
+[   71046 ms] RX RESET
+
+[   71046 ms] TX {"status":"OK","reset":true}
+[   71046 ms] TX 
+[   71540 ms] RX SET PWM 0
+
+[   71540 ms] GPIO2 duty=0
+[   71540 ms] TX {"status":"OK","pwm":0}
+[   71541 ms] RX RESET
+
+[   71541 ms] TX {"status":"OK","reset":true}
+[   71541 ms] TX 
+[   71743 ms] RX SET PWM 1
+
+[   71743 ms] GPIO2 duty=2
+[   71743 ms] TX {"status":"OK","pwm":1}
+[   71743 ms] RX RESET
+
+[   71743 ms] TX {"status":"OK","reset":true}
+[   71743 ms] TX 
+[   71946 ms] RX SET PWM 50
+
+[   71946 ms] GPIO2 duty=127
+[   71946 ms] TX {"status":"OK","pwm":50}
+[   71947 ms] RX RESET
+
+[   71947 ms] TX {"status":"OK","reset":true}
+[   71947 ms] TX 
+[   72147 ms] RX SET PWM 99
+
+[   72147 ms] GPIO2 duty=252
+[   72147 ms] TX {"status":"OK","pwm":99}
+[   72148 ms] RX RESET
+
+[   72148 ms] TX {"status":"OK","reset":true}
+[   72148 ms] TX 
+[   72349 ms] RX SET PWM 100
+
+[   72350 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   72350 ms] TX 
+[   72363 ms] RX RESET
+
+[   72363 ms] TX {"status":"OK","reset":true}
+[   72363 ms] TX 
+[   72565 ms] RX SET PWM -1
+
+[   72565 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   72565 ms] TX 
+[   72565 ms] RX RESET
+
+[   72565 ms] TX {"status":"OK","reset":true}
+[   72565 ms] TX 
+[   72767 ms] RX SET PWM 101
+
+[   72767 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   72767 ms] TX 
+[   72768 ms] RX RESET
+
+[   72768 ms] TX {"status":"OK","reset":true}
+[   72768 ms] TX 
+[   72971 ms] RX SET PWM 999
+
+[   72971 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   72971 ms] TX 
+[   72972 ms] RX RESET
+
+[   72972 ms] TX {"status":"OK","reset":true}
+[   72972 ms] TX 
+[   73173 ms] RX SET LED OFF
+
+[   73173 ms] GPIO2 duty=0
+[   73173 ms] TX {"status":"OK","led":false}
+[   73173 ms] TX 
+[   73174 ms] RX SET LED ON
+
+[   73174 ms] GPIO2 duty=255
+[   73174 ms] TX {"status":"OK","led":true}
+[   73174 ms] TX 
+[   73174 ms] RX STATUS
+
+[   73174 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   73175 ms] RX SET LED OFF
+
+[   73175 ms] GPIO2 duty=0
+[   73175 ms] TX {"status":"OK","led":false}
+[   73175 ms] TX 
+[   73175 ms] RX RESET
+
+[   73175 ms] TX {"status":"OK","reset":true}
+[   73175 ms] TX 
+[   73376 ms] RX SET LED OFF
+
+[   73376 ms] GPIO2 duty=0
+[   73376 ms] TX {"status":"OK","led":false}
+[   73376 ms] TX 
+[   73378 ms] RX SET LED ON
+
+[   73378 ms] GPIO2 duty=255
+[   73378 ms] TX {"status":"OK","led":true}
+[   73378 ms] TX 
+[   73378 ms] RX SET LED OFF
+
+[   73378 ms] GPIO2 duty=0
+[   73378 ms] TX {"status":"OK","led":false}
+[   73378 ms] TX 
+[   73379 ms] RX STATUS
+
+[   73379 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   73379 ms] RX SET LED OFF
+
+[   73379 ms] GPIO2 duty=0
+[   73379 ms] TX {"status":"OK","led":false}
+[   73379 ms] TX 
+[   73380 ms] RX RESET
+
+[   73380 ms] TX {"status":"OK","reset":true}
+[   73380 ms] TX 
+[   73581 ms] RX SET LED OFF
+
+[   73581 ms] GPIO2 duty=0
+[   73581 ms] TX {"status":"OK","led":false}
+[   73581 ms] TX 
+[   73582 ms] RX SET PWM 25
+
+[   73582 ms] GPIO2 duty=63
+[   73582 ms] TX {"status":"OK","pwm":25}
+[   73582 ms] RX SET PWM 0
+
+[   73582 ms] GPIO2 duty=0
+[   73582 ms] TX {"status":"OK","pwm":0}
+[   73583 ms] RX STATUS
+
+[   73583 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   73584 ms] RX SET LED OFF
+
+[   73584 ms] GPIO2 duty=0
+[   73584 ms] TX {"status":"OK","led":false}
+[   73584 ms] TX 
+[   73584 ms] RX RESET
+
+[   73584 ms] TX {"status":"OK","reset":true}
+[   73584 ms] TX 
+[   73786 ms] RX SET LED OFF
+
+[   73786 ms] GPIO2 duty=0
+[   73786 ms] TX {"status":"OK","led":false}
+[   73786 ms] TX 
+[   73787 ms] RX SET PWM 25
+
+[   73787 ms] GPIO2 duty=63
+[   73787 ms] TX {"status":"OK","pwm":25}
+[   73788 ms] RX SET PWM 1
+
+[   73788 ms] GPIO2 duty=2
+[   73788 ms] TX {"status":"OK","pwm":1}
+[   73789 ms] RX STATUS
+
+[   73789 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   73790 ms] RX SET LED OFF
+
+[   73790 ms] GPIO2 duty=0
+[   73790 ms] TX {"status":"OK","led":false}
+[   73790 ms] TX 
+[   73790 ms] RX RESET
+
+[   73790 ms] TX {"status":"OK","reset":true}
+[   73790 ms] TX 
+[   73993 ms] RX SET LED OFF
+
+[   73993 ms] GPIO2 duty=0
+[   73993 ms] TX {"status":"OK","led":false}
+[   73993 ms] TX 
+[   73994 ms] RX SET PWM 25
+
+[   73994 ms] GPIO2 duty=63
+[   73994 ms] TX {"status":"OK","pwm":25}
+[   73994 ms] RX SET PWM 50
+
+[   73994 ms] GPIO2 duty=127
+[   73994 ms] TX {"status":"OK","pwm":50}
+[   73994 ms] RX STATUS
+
+[   73994 ms] TX {"status":"OK","led":true,"pwm":127,"heap":287512}
+[   73995 ms] RX SET LED OFF
+
+[   73995 ms] GPIO2 duty=0
+[   73995 ms] TX {"status":"OK","led":false}
+[   73995 ms] TX 
+[   73995 ms] RX RESET
+
+[   73995 ms] TX {"status":"OK","reset":true}
+[   73995 ms] TX 
+[   74195 ms] RX SET LED OFF
+
+[   74195 ms] GPIO2 duty=0
+[   74195 ms] TX {"status":"OK","led":false}
+[   74195 ms] TX 
+[   74196 ms] RX SET PWM 25
+
+[   74196 ms] GPIO2 duty=63
+[   74196 ms] TX {"status":"OK","pwm":25}
+[   74196 ms] RX SET PWM 99
+
+[   74196 ms] GPIO2 duty=252
+[   74196 ms] TX {"status":"OK","pwm":99}
+[   74196 ms] RX STATUS
+
+[   74196 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   74197 ms] RX SET LED OFF
+
+[   74197 ms] GPIO2 duty=0
+[   74197 ms] TX {"status":"OK","led":false}
+[   74197 ms] TX 
+[   74197 ms] RX RESET
+
+[   74197 ms] TX {"status":"OK","reset":true}
+[   74197 ms] TX 
+[   74398 ms] RX SET LED OFF
+
+[   74398 ms] GPIO2 duty=0
+[   74398 ms] TX {"status":"OK","led":false}
+[   74398 ms] TX 
+[   74399 ms] RX PING
+
+[   74400 ms] TX {"status":"OK","command":"PING"}
+[   74400 ms] TX 
+[   74500 ms] RX SET LED OFF
+
+[   74500 ms] GPIO2 duty=0
+[   74500 ms] TX {"status":"OK","led":false}
+[   74500 ms] TX 
+[   74501 ms] RX RESET
+
+[   74501 ms] TX {"status":"OK","reset":true}
+[   74501 ms] TX 
+[   74702 ms] RX SET LED OFF
+
+[   74702 ms] GPIO2 duty=0
+[   74702 ms] TX {"status":"OK","led":false}
+[   74702 ms] TX 
+[   74703 ms] RX STATUS
+
+[   74703 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   74804 ms] RX SET LED OFF
+
+[   74805 ms] GPIO2 duty=0
+[   74805 ms] TX {"status":"OK","led":false}
+[   74805 ms] TX 
+[   74805 ms] RX RESET
+
+[   74805 ms] TX {"status":"OK","reset":true}
+[   74805 ms] TX 
+[   75007 ms] RX SET LED OFF
+
+[   75007 ms] GPIO2 duty=0
+[   75007 ms] TX {"status":"OK","led":false}
+[   75007 ms] TX 
+[   75008 ms] RX GET TEMP
+
+[   75008 ms] TX {"status":"OK","temperature":24.5
+[   75035 ms] RX SET LED OFF
+
+[   75035 ms] GPIO2 duty=0
+[   75035 ms] TX {"status":"OK","led":false}
+[   75035 ms] TX 
+[   75035 ms] RX RESET
+
+[   75035 ms] TX {"status":"OK","reset":true}
+[   75035 ms] TX 
+[   75236 ms] RX SET LED OFF
+
+[   75236 ms] GPIO2 duty=0
+[   75236 ms] TX {"status":"OK","led":false}
+[   75236 ms] TX 
+[   75237 ms] RX SET LED ON
+
+[   75237 ms] GPIO2 duty=255
+[   75237 ms] TX {"status":"OK","led":true}
+[   75237 ms] TX 
+[   75338 ms] RX SET LED OFF
+
+[   75338 ms] GPIO2 duty=0
+[   75338 ms] TX {"status":"OK","led":false}
+[   75338 ms] TX 
+[   75338 ms] RX RESET
+
+[   75338 ms] TX {"status":"OK","reset":true}
+[   75339 ms] TX 
+[   75540 ms] RX SET LED OFF
+
+[   75540 ms] GPIO2 duty=0
+[   75540 ms] TX {"status":"OK","led":false}
+[   75540 ms] TX 
+[   75540 ms] RX SET LED OFF
+
+[   75540 ms] GPIO2 duty=0
+[   75540 ms] TX {"status":"OK","led":false}
+[   75540 ms] TX 
+[   75642 ms] RX SET LED OFF
+
+[   75642 ms] GPIO2 duty=0
+[   75642 ms] TX {"status":"OK","led":false}
+[   75642 ms] TX 
+[   75642 ms] RX RESET
+
+[   75643 ms] TX {"status":"OK","reset":true}
+[   75643 ms] TX 
+[   75977 ms] RX SET LED OFF
+
+[   75977 ms] GPIO2 duty=0
+[   75977 ms] TX {"status":"OK","led":false}
+[   75977 ms] TX 
+[   76020 ms] RX SET PWM 10
+
+[   76020 ms] GPIO2 duty=25
+[   76020 ms] TX {"status":"OK","pwm":10}
+[   76122 ms] RX SET LED OFF
+
+[   76122 ms] GPIO2 duty=0
+[   76122 ms] TX {"status":"OK","led":false}
+[   76122 ms] TX 
+[   76123 ms] RX RESET
+
+[   76123 ms] TX {"status":"OK","reset":true}
+[   76123 ms] TX 
+[   76325 ms] RX SET LED OFF
+
+[   76325 ms] GPIO2 duty=0
+[   76325 ms] TX {"status":"OK","led":false}
+[   76325 ms] TX 
+[   76326 ms] RX RESET
+
+[   76326 ms] TX {"status":"OK","reset":true}
+[   76326 ms] TX 
+[   76427 ms] RX SET LED OFF
+
+[   76427 ms] GPIO2 duty=0
+[   76427 ms] TX {"status":"OK","led":false}
+[   76427 ms] TX 
+[   76427 ms] RX RESET
+
+[   76427 ms] TX {"status":"OK","reset":true}
+[   76427 ms] TX 
+[   76629 ms] RX SET LED OFF
+
+[   76629 ms] GPIO2 duty=0
+[   76629 ms] TX {"status":"OK","led":false}
+[   76629 ms] TX 
+[   76630 ms] RX HELLO
+
+[   76630 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   76630 ms] TX 
+[   76731 ms] RX SET LED OFF
+
+[   76731 ms] GPIO2 duty=0
+[   76731 ms] TX {"status":"OK","led":false}
+[   76731 ms] TX 
+[   76731 ms] RX RESET
+
+[   76731 ms] TX {"status":"OK","reset":true}
+[   76731 ms] TX 
+[   76934 ms] RX SET LED OFF
+
+[   76934 ms] GPIO2 duty=0
+[   76934 ms] TX {"status":"OK","led":false}
+[   76934 ms] TX 
+[   76935 ms] RX SET LED ON
+
+[   76935 ms] GPIO2 duty=255
+[   76935 ms] TX {"status":"OK","led":true}
+[   76935 ms] TX 
+[   76935 ms] RX RESET
+
+[   76935 ms] TX {"status":"OK","reset":true}
+[   76935 ms] TX 
+[   76935 ms] RX STATUS
+
+[   76935 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   76940 ms] RX SET LED OFF
+
+[   76940 ms] GPIO2 duty=0
+[   76940 ms] TX {"status":"OK","led":false}
+[   76940 ms] TX 
+[   76941 ms] RX RESET
+
+[   76941 ms] TX {"status":"OK","reset":true}
+[   76941 ms] TX 
+[   77141 ms] RX SET LED OFF
+
+[   77141 ms] GPIO2 duty=0
+[   77141 ms] TX {"status":"OK","led":false}
+[   77141 ms] TX 
+[   77142 ms] RX SET PWM 1
+
+[   77142 ms] GPIO2 duty=2
+[   77142 ms] TX {"status":"OK","pwm":1}
+[   77142 ms] RX RESET
+
+[   77142 ms] TX {"status":"OK","reset":true}
+[   77142 ms] TX 
+[   77142 ms] RX STATUS
+
+[   77142 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   77149 ms] RX SET LED OFF
+
+[   77149 ms] GPIO2 duty=0
+[   77149 ms] TX {"status":"OK","led":false}
+[   77149 ms] TX 
+[   77150 ms] RX RESET
+
+[   77150 ms] TX {"status":"OK","reset":true}
+[   77150 ms] TX 
+[   77351 ms] RX SET LED OFF
+
+[   77351 ms] GPIO2 duty=0
+[   77351 ms] TX {"status":"OK","led":false}
+[   77351 ms] TX 
+[   77352 ms] RX SET PWM 50
+
+[   77352 ms] GPIO2 duty=127
+[   77352 ms] TX {"status":"OK","pwm":50}
+[   77352 ms] RX RESET
+
+[   77352 ms] TX {"status":"OK","reset":true}
+[   77352 ms] TX 
+[   77352 ms] RX STATUS
+
+[   77352 ms] TX {"status":"OK","led":true,"pwm":127,"heap":287512}
+[   77357 ms] RX SET LED OFF
+
+[   77357 ms] GPIO2 duty=0
+[   77357 ms] TX {"status":"OK","led":false}
+[   77357 ms] TX 
+[   77357 ms] RX RESET
+
+[   77357 ms] TX {"status":"OK","reset":true}
+[   77357 ms] TX 
+[   77558 ms] RX SET LED OFF
+
+[   77558 ms] GPIO2 duty=0
+[   77558 ms] TX {"status":"OK","led":false}
+[   77558 ms] TX 
+[   77559 ms] RX SET PWM 99
+
+[   77559 ms] GPIO2 duty=252
+[   77559 ms] TX {"status":"OK","pwm":99}
+[   77559 ms] RX RESET
+
+[   77559 ms] TX {"status":"OK","reset":true}
+[   77559 ms] TX 
+[   77559 ms] RX STATUS
+
+[   77559 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   77565 ms] RX SET LED OFF
+
+[   77565 ms] GPIO2 duty=0
+[   77565 ms] TX {"status":"OK","led":false}
+[   77565 ms] TX 
+[   77565 ms] RX RESET
+
+[   77565 ms] TX {"status":"OK","reset":true}
+[   77565 ms] TX 
+[   77766 ms] RX SET LED OFF
+
+[   77766 ms] GPIO2 duty=0
+[   77766 ms] TX {"status":"OK","led":false}
+[   77766 ms] TX 
+[   77767 ms] RX SET LED OFF
+
+[   77767 ms] GPIO2 duty=0
+[   77767 ms] TX {"status":"OK","led":false}
+[   77767 ms] TX 
+[   77767 ms] RX RESET
+
+[   77767 ms] TX {"status":"OK","reset":true}
+[   77767 ms] TX 
+[   77767 ms] RX STATUS
+
+[   77767 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   77768 ms] RX SET LED OFF
+
+[   77768 ms] GPIO2 duty=0
+[   77768 ms] TX {"status":"OK","led":false}
+[   77768 ms] TX 
+[   77768 ms] RX RESET
+
+[   77768 ms] TX {"status":"OK","reset":true}
+[   77768 ms] TX 
+[   77970 ms] RX SET LED OFF
+
+[   77970 ms] GPIO2 duty=0
+[   77970 ms] TX {"status":"OK","led":false}
+[   77970 ms] TX 
+[   77971 ms] RX SET PWM 25
+
+[   77971 ms] GPIO2 duty=63
+[   77971 ms] TX {"status":"OK","pwm":25}
+[   77971 ms] RX STATUS
+
+[   77971 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   77971 ms] RX SET PWM abc
+
+[   77971 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   77971 ms] TX 
+[   77972 ms] RX STATUS
+
+[   77972 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   77972 ms] RX SET LED OFF
+
+[   77972 ms] GPIO2 duty=0
+[   77972 ms] TX {"status":"OK","led":false}
+[   77972 ms] TX 
+[   77972 ms] RX RESET
+
+[   77972 ms] TX {"status":"OK","reset":true}
+[   77972 ms] TX 
+[   78172 ms] RX SET LED OFF
+
+[   78172 ms] GPIO2 duty=0
+[   78172 ms] TX {"status":"OK","led":false}
+[   78172 ms] TX 
+[   78173 ms] RX SET PWM 25
+
+[   78173 ms] GPIO2 duty=63
+[   78173 ms] TX {"status":"OK","pwm":25}
+[   78174 ms] RX STATUS
+
+[   78174 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78174 ms] RX SET PWM 5.5
+
+[   78174 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   78174 ms] TX 
+[   78174 ms] RX STATUS
+
+[   78174 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78175 ms] RX SET LED OFF
+
+[   78175 ms] GPIO2 duty=0
+[   78175 ms] TX {"status":"OK","led":false}
+[   78175 ms] TX 
+[   78175 ms] RX RESET
+
+[   78175 ms] TX {"status":"OK","reset":true}
+[   78175 ms] TX 
+[   78376 ms] RX SET LED OFF
+
+[   78376 ms] GPIO2 duty=0
+[   78376 ms] TX {"status":"OK","led":false}
+[   78376 ms] TX 
+[   78377 ms] RX SET PWM 25
+
+[   78377 ms] GPIO2 duty=63
+[   78377 ms] TX {"status":"OK","pwm":25}
+[   78378 ms] RX STATUS
+
+[   78378 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78378 ms] RX SET PWM +5
+
+[   78378 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   78378 ms] TX 
+[   78379 ms] RX STATUS
+
+[   78379 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78379 ms] RX SET LED OFF
+
+[   78379 ms] GPIO2 duty=0
+[   78379 ms] TX {"status":"OK","led":false}
+[   78379 ms] TX 
+[   78380 ms] RX RESET
+
+[   78380 ms] TX {"status":"OK","reset":true}
+[   78380 ms] TX 
+[   78581 ms] RX SET LED OFF
+
+[   78581 ms] GPIO2 duty=0
+[   78581 ms] TX {"status":"OK","led":false}
+[   78581 ms] TX 
+[   78582 ms] RX SET PWM 25
+
+[   78582 ms] GPIO2 duty=63
+[   78582 ms] TX {"status":"OK","pwm":25}
+[   78582 ms] RX STATUS
+
+[   78582 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78582 ms] RX SET PWM 1e2
+
+[   78582 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   78582 ms] TX 
+[   78582 ms] RX STATUS
+
+[   78583 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78583 ms] RX SET LED OFF
+
+[   78583 ms] GPIO2 duty=0
+[   78583 ms] TX {"status":"OK","led":false}
+[   78583 ms] TX 
+[   78583 ms] RX RESET
+
+[   78583 ms] TX {"status":"OK","reset":true}
+[   78583 ms] TX 
+[   78784 ms] RX SET LED OFF
+
+[   78784 ms] GPIO2 duty=0
+[   78784 ms] TX {"status":"OK","led":false}
+[   78784 ms] TX 
+[   78785 ms] RX SET PWM 25
+
+[   78785 ms] GPIO2 duty=63
+[   78785 ms] TX {"status":"OK","pwm":25}
+[   78785 ms] RX STATUS
+
+[   78785 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78786 ms] RX SET PWM 0x10
+
+[   78786 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   78786 ms] TX 
+[   78786 ms] RX STATUS
+
+[   78786 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78786 ms] RX SET LED OFF
+
+[   78786 ms] GPIO2 duty=0
+[   78786 ms] TX {"status":"OK","led":false}
+[   78786 ms] TX 
+[   78787 ms] RX RESET
+
+[   78787 ms] TX {"status":"OK","reset":true}
+[   78787 ms] TX 
+[   78990 ms] RX SET LED OFF
+
+[   78990 ms] GPIO2 duty=0
+[   78990 ms] TX {"status":"OK","led":false}
+[   78990 ms] TX 
+[   78991 ms] RX SET PWM 25
+
+[   78991 ms] GPIO2 duty=63
+[   78991 ms] TX {"status":"OK","pwm":25}
+[   78991 ms] RX STATUS
+
+[   78991 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78991 ms] RX SET PWM 50 50
+
+[   78991 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   78991 ms] TX 
+[   78992 ms] RX STATUS
+
+[   78992 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   78992 ms] RX SET LED OFF
+
+[   78992 ms] GPIO2 duty=0
+[   78992 ms] TX {"status":"OK","led":false}
+[   78992 ms] TX 
+[   78992 ms] RX RESET
+
+[   78992 ms] TX {"status":"OK","reset":true}
+[   78992 ms] TX 
+[   79193 ms] RX SET LED OFF
+
+[   79193 ms] GPIO2 duty=0
+[   79193 ms] TX {"status":"OK","led":false}
+[   79193 ms] TX 
+[   79194 ms] RX SET PWM 25
+
+[   79194 ms] GPIO2 duty=63
+[   79194 ms] TX {"status":"OK","pwm":25}
+[   79194 ms] RX STATUS
+
+[   79194 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   79195 ms] RX SET PWM -0
+
+[   79195 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   79195 ms] TX 
+[   79195 ms] RX STATUS
+
+[   79195 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   79196 ms] RX SET LED OFF
+
+[   79196 ms] GPIO2 duty=0
+[   79196 ms] TX {"status":"OK","led":false}
+[   79196 ms] TX 
+[   79196 ms] RX RESET
+
+[   79196 ms] TX {"status":"OK","reset":true}
+[   79196 ms] TX 
+[   79398 ms] RX SET LED OFF
+
+[   79398 ms] GPIO2 duty=0
+[   79398 ms] TX {"status":"OK","led":false}
+[   79398 ms] TX 
+[   79399 ms] RX SET PWM 25
+
+[   79399 ms] GPIO2 duty=63
+[   79399 ms] TX {"status":"OK","pwm":25}
+[   79399 ms] RX STATUS
+
+[   79399 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   79399 ms] RX SET PWM
+
+[   79399 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   79399 ms] TX 
+[   79399 ms] RX STATUS
+
+[   79399 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   79400 ms] RX SET LED OFF
+
+[   79400 ms] GPIO2 duty=0
+[   79400 ms] TX {"status":"OK","led":false}
+[   79400 ms] TX 
+[   79400 ms] RX RESET
+
+[   79400 ms] TX {"status":"OK","reset":true}
+[   79400 ms] TX 
+[   79602 ms] RX SET LED OFF
+
+[   79602 ms] GPIO2 duty=0
+[   79602 ms] TX {"status":"OK","led":false}
+[   79602 ms] TX 
+[   79603 ms] RX SET PWM 25
+
+[   79603 ms] GPIO2 duty=63
+[   79603 ms] TX {"status":"OK","pwm":25}
+[   79604 ms] RX STATUS
+
+[   79604 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   79604 ms] RX SET LED BLINK
+
+[   79604 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   79604 ms] TX 
+[   79604 ms] RX STATUS
+
+[   79604 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   79605 ms] RX SET LED OFF
+
+[   79605 ms] GPIO2 duty=0
+[   79605 ms] TX {"status":"OK","led":false}
+[   79605 ms] TX 
+[   79606 ms] RX RESET
+
+[   79606 ms] TX {"status":"OK","reset":true}
+[   79606 ms] TX 
+[   79807 ms] RX SET LED OFF
+
+[   79807 ms] GPIO2 duty=0
+[   79807 ms] TX {"status":"OK","led":false}
+[   79807 ms] TX 
+[   79808 ms] RX SET PWM 25
+
+[   79808 ms] GPIO2 duty=63
+[   79808 ms] TX {"status":"OK","pwm":25}
+[   79808 ms] RX STATUS
+
+[   79808 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   79808 ms] RX set pwm 50
+
+[   79808 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   79808 ms] TX 
+[   79808 ms] RX STATUS
+
+[   79808 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   79809 ms] RX SET LED OFF
+
+[   79809 ms] GPIO2 duty=0
+[   79809 ms] TX {"status":"OK","led":false}
+[   79809 ms] TX 
+[   79809 ms] RX RESET
+
+[   79809 ms] TX {"status":"OK","reset":true}
+[   79809 ms] TX 
+[   80010 ms] RX SET LED OFF
+
+[   80010 ms] GPIO2 duty=0
+[   80010 ms] TX {"status":"OK","led":false}
+[   80010 ms] TX 
+[   80011 ms] RX SET PWM 25
+
+[   80011 ms] GPIO2 duty=63
+[   80011 ms] TX {"status":"OK","pwm":25}
+[   80011 ms] RX STATUS
+
+[   80011 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   80012 ms] RX PWM 50
+
+[   80012 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   80012 ms] TX 
+[   80012 ms] RX STATUS
+
+[   80012 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   80012 ms] RX SET LED OFF
+
+[   80012 ms] GPIO2 duty=0
+[   80012 ms] TX {"status":"OK","led":false}
+[   80012 ms] TX 
+[   80012 ms] RX RESET
+
+[   80012 ms] TX {"status":"OK","reset":true}
+[   80012 ms] TX 
+[   80213 ms] RX SET LED OFF
+
+[   80214 ms] GPIO2 duty=0
+[   80214 ms] TX {"status":"OK","led":false}
+[   80214 ms] TX 
+[   80215 ms] RX SET PWM 25
+
+[   80215 ms] GPIO2 duty=63
+[   80215 ms] TX {"status":"OK","pwm":25}
+[   80215 ms] RX STATUS
+
+[   80215 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   80215 ms] RX 
+
+[   80215 ms] TX {"status":"ERROR","code":"UNKNOWN_COMMAND"}
+[   80215 ms] TX 
+[   80215 ms] RX STATUS
+
+[   80215 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   80216 ms] RX SET LED OFF
+
+[   80216 ms] GPIO2 duty=0
+[   80216 ms] TX {"status":"OK","led":false}
+[   80216 ms] TX 
+[   80216 ms] RX RESET
+
+[   80216 ms] TX {"status":"OK","reset":true}
+[   80216 ms] TX 
+[   80417 ms] RX SET LED OFF
+
+[   80417 ms] GPIO2 duty=0
+[   80417 ms] TX {"status":"OK","led":false}
+[   80417 ms] TX 
+[   80418 ms] RX SET PWM 25
+
+[   80418 ms] GPIO2 duty=63
+[   80418 ms] TX {"status":"OK","pwm":25}
+[   80418 ms] RX STATUS
+
+[   80418 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   80418 ms] RX SET PWM -1
+
+[   80418 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   80418 ms] TX 
+[   80419 ms] RX STATUS
+
+[   80419 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   80419 ms] RX SET LED OFF
+
+[   80419 ms] GPIO2 duty=0
+[   80419 ms] TX {"status":"OK","led":false}
+[   80419 ms] TX 
+[   80419 ms] RX RESET
+
+[   80419 ms] TX {"status":"OK","reset":true}
+[   80419 ms] TX 
+[   80620 ms] RX SET LED OFF
+
+[   80620 ms] GPIO2 duty=0
+[   80620 ms] TX {"status":"OK","led":false}
+[   80620 ms] TX 
+[   80621 ms] RX SET PWM 25
+
+[   80621 ms] GPIO2 duty=63
+[   80621 ms] TX {"status":"OK","pwm":25}
+[   80621 ms] RX STATUS
+
+[   80621 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   80622 ms] RX SET PWM 0
+
+[   80622 ms] GPIO2 duty=0
+[   80622 ms] TX {"status":"OK","pwm":0}
+[   80622 ms] RX STATUS
+
+[   80622 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   80623 ms] RX SET LED OFF
+
+[   80623 ms] GPIO2 duty=0
+[   80623 ms] TX {"status":"OK","led":false}
+[   80623 ms] TX 
+[   80623 ms] RX RESET
+
+[   80623 ms] TX {"status":"OK","reset":true}
+[   80623 ms] TX 
+[   80824 ms] RX SET LED OFF
+
+[   80824 ms] GPIO2 duty=0
+[   80824 ms] TX {"status":"OK","led":false}
+[   80824 ms] TX 
+[   80825 ms] RX SET PWM 25
+
+[   80825 ms] GPIO2 duty=63
+[   80825 ms] TX {"status":"OK","pwm":25}
+[   80826 ms] RX STATUS
+
+[   80826 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   80826 ms] RX SET PWM 1
+
+[   80826 ms] GPIO2 duty=2
+[   80826 ms] TX {"status":"OK","pwm":1}
+[   80826 ms] RX STATUS
+
+[   80826 ms] TX {"status":"OK","led":true,"pwm":2,"heap":287512}
+[   80827 ms] RX SET LED OFF
+
+[   80827 ms] GPIO2 duty=0
+[   80827 ms] TX {"status":"OK","led":false}
+[   80827 ms] TX 
+[   80828 ms] RX RESET
+
+[   80828 ms] TX {"status":"OK","reset":true}
+[   80828 ms] TX 
+[   81029 ms] RX SET LED OFF
+
+[   81029 ms] GPIO2 duty=0
+[   81029 ms] TX {"status":"OK","led":false}
+[   81029 ms] TX 
+[   81030 ms] RX SET PWM 25
+
+[   81030 ms] GPIO2 duty=63
+[   81030 ms] TX {"status":"OK","pwm":25}
+[   81030 ms] RX STATUS
+
+[   81030 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   81030 ms] RX SET PWM 99
+
+[   81030 ms] GPIO2 duty=252
+[   81030 ms] TX {"status":"OK","pwm":99}
+[   81030 ms] RX STATUS
+
+[   81030 ms] TX {"status":"OK","led":true,"pwm":252,"heap":287512}
+[   81031 ms] RX SET LED OFF
+
+[   81031 ms] GPIO2 duty=0
+[   81031 ms] TX {"status":"OK","led":false}
+[   81031 ms] TX 
+[   81031 ms] RX RESET
+
+[   81031 ms] TX {"status":"OK","reset":true}
+[   81031 ms] TX 
+[   81232 ms] RX SET LED OFF
+
+[   81232 ms] GPIO2 duty=0
+[   81232 ms] TX {"status":"OK","led":false}
+[   81232 ms] TX 
+[   81233 ms] RX SET PWM 25
+
+[   81233 ms] GPIO2 duty=63
+[   81233 ms] TX {"status":"OK","pwm":25}
+[   81234 ms] RX STATUS
+
+[   81234 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   81234 ms] RX SET PWM 100
+
+[   81234 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   81234 ms] TX 
+[   81242 ms] RX SET LED OFF
+
+[   81242 ms] GPIO2 duty=0
+[   81242 ms] TX {"status":"OK","led":false}
+[   81242 ms] TX 
+[   81242 ms] RX RESET
+
+[   81242 ms] TX {"status":"OK","reset":true}
+[   81242 ms] TX 
+[   81447 ms] RX SET LED OFF
+
+[   81447 ms] GPIO2 duty=0
+[   81447 ms] TX {"status":"OK","led":false}
+[   81447 ms] TX 
+[   81448 ms] RX SET PWM 25
+
+[   81448 ms] GPIO2 duty=63
+[   81448 ms] TX {"status":"OK","pwm":25}
+[   81448 ms] RX STATUS
+
+[   81448 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   81449 ms] RX SET PWM 101
+
+[   81449 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   81449 ms] TX 
+[   81449 ms] RX STATUS
+
+[   81449 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   81453 ms] RX SET LED OFF
+
+[   81453 ms] GPIO2 duty=0
+[   81453 ms] TX {"status":"OK","led":false}
+[   81453 ms] TX 
+[   81454 ms] RX RESET
+
+[   81454 ms] TX {"status":"OK","reset":true}
+[   81454 ms] TX 
+[   81661 ms] RX SET LED OFF
+
+[   81663 ms] GPIO2 duty=0
+[   81663 ms] TX {"status":"OK","led":false}
+[   81663 ms] TX 
+[   81664 ms] RX SET PWM 25
+
+[   81664 ms] GPIO2 duty=63
+[   81664 ms] TX {"status":"OK","pwm":25}
+[   81664 ms] RX STATUS
+
+[   81664 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   81665 ms] RX SET PWM 2147483647
+
+[   81665 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   81665 ms] TX 
+[   81665 ms] RX STATUS
+
+[   81665 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   81666 ms] RX SET LED OFF
+
+[   81666 ms] GPIO2 duty=0
+[   81666 ms] TX {"status":"OK","led":false}
+[   81666 ms] TX 
+[   81666 ms] RX RESET
+
+[   81666 ms] TX {"status":"OK","reset":true}
+[   81666 ms] TX 
+[   81869 ms] RX SET LED OFF
+
+[   81869 ms] GPIO2 duty=0
+[   81869 ms] TX {"status":"OK","led":false}
+[   81869 ms] TX 
+[   81870 ms] RX SET PWM 25
+
+[   81870 ms] GPIO2 duty=63
+[   81870 ms] TX {"status":"OK","pwm":25}
+[   81870 ms] RX STATUS
+
+[   81870 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   81870 ms] RX SET PWM 2147483648
+
+[   81870 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   81871 ms] TX 
+[   81871 ms] RX STATUS
+
+[   81871 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   81872 ms] RX SET LED OFF
+
+[   81872 ms] GPIO2 duty=0
+[   81872 ms] TX {"status":"OK","led":false}
+[   81872 ms] TX 
+[   81872 ms] RX RESET
+
+[   81872 ms] TX {"status":"OK","reset":true}
+[   81872 ms] TX 
+[   82073 ms] RX SET LED OFF
+
+[   82073 ms] GPIO2 duty=0
+[   82073 ms] TX {"status":"OK","led":false}
+[   82073 ms] TX 
+[   82074 ms] RX SET PWM 25
+
+[   82074 ms] GPIO2 duty=63
+[   82074 ms] TX {"status":"OK","pwm":25}
+[   82074 ms] RX STATUS
+
+[   82074 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   82074 ms] RX SET PWM 4294967296
+
+[   82074 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   82074 ms] TX 
+[   82075 ms] RX STATUS
+
+[   82075 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   82076 ms] RX SET LED OFF
+
+[   82076 ms] GPIO2 duty=0
+[   82076 ms] TX {"status":"OK","led":false}
+[   82076 ms] TX 
+[   82076 ms] RX RESET
+
+[   82076 ms] TX {"status":"OK","reset":true}
+[   82076 ms] TX 
+[   82277 ms] RX SET LED OFF
+
+[   82277 ms] GPIO2 duty=0
+[   82277 ms] TX {"status":"OK","led":false}
+[   82277 ms] TX 
+[   82278 ms] RX SET PWM 25
+
+[   82278 ms] GPIO2 duty=63
+[   82278 ms] TX {"status":"OK","pwm":25}
+[   82278 ms] RX STATUS
+
+[   82278 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   82278 ms] RX SET PWM 4294967396
+
+[   82278 ms] TX {"status":"ERROR","code":"INVALID_VALUE"}
+[   82278 ms] TX 
+[   82278 ms] RX STATUS
+
+[   82278 ms] TX {"status":"OK","led":true,"pwm":63,"heap":287512}
+[   82279 ms] RX SET LED OFF
+
+[   82279 ms] GPIO2 duty=0
+[   82279 ms] TX {"status":"OK","led":false}
+[   82279 ms] TX 
+[   82279 ms] RX RESET
+
+[   82279 ms] TX {"status":"OK","reset":true}
+[   82279 ms] TX 
+[   82480 ms] RX SET LED OFF
+
+[   82480 ms] GPIO2 duty=0
+[   82480 ms] TX {"status":"OK","led":false}
+[   82480 ms] TX 
+[   82481 ms] RX NO_RESPONSE
+
+[   82682 ms] RX PING
+
+[   82682 ms] TX {"status":"OK","command":"PING"}
+[   82682 ms] TX 
+[   82683 ms] RX SET LED OFF
+
+[   82683 ms] GPIO2 duty=0
+[   82683 ms] TX {"status":"OK","led":false}
+[   82683 ms] TX 
+[   82683 ms] RX RESET
+
+[   82683 ms] TX {"status":"OK","reset":true}
+[   82683 ms] TX 
+[   82885 ms] RX SET LED OFF
+
+[   82885 ms] GPIO2 duty=0
+[   82885 ms] TX {"status":"OK","led":false}
+[   82886 ms] TX 
+[   82886 ms] RX NO_RESPONSE
+
+[   83386 ms] RX PING
+
+[   83386 ms] TX {"status":"OK","command":"PING"}
+[   83386 ms] TX 
+[   83387 ms] RX SET LED OFF
+
+[   83387 ms] GPIO2 duty=0
+[   83387 ms] TX {"status":"OK","led":false}
+[   83387 ms] TX 
+[   83388 ms] RX RESET
+
+[   83388 ms] TX {"status":"OK","reset":true}
+[   83388 ms] TX 
+[   83589 ms] RX SET LED OFF
+
+[   83589 ms] GPIO2 duty=0
+[   83589 ms] TX {"status":"OK","led":false}
+[   83589 ms] TX 
+[   83590 ms] RX NO_RESPONSE
+
+[   84591 ms] RX PING
+
+[   84591 ms] TX {"status":"OK","command":"PING"}
+[   84591 ms] TX 
+[   84592 ms] RX SET LED OFF
+
+[   84592 ms] GPIO2 duty=0
+[   84592 ms] TX {"status":"OK","led":false}
+[   84592 ms] TX 
+[   84592 ms] RX RESET
+
+[   84592 ms] TX {"status":"OK","reset":true}
+[   84592 ms] TX 
+[   84794 ms] RX SET LED OFF
+
+[   84794 ms] GPIO2 duty=0
+[   84794 ms] TX {"status":"OK","led":false}
+[   84794 ms] TX 
+[   84795 ms] RX PING
+
+[   84795 ms] TX {"status":"OK","command":"PING"}
+[   84795 ms] TX 
+[   84795 ms] RX PING
+
+[   84795 ms] TX {"status":"OK","command":"PING"}
+[   84795 ms] TX 
+[   84795 ms] RX PING
+
+[   84795 ms] TX {"status":"OK","command":"PING"}
+[   84795 ms] TX 
+[   84795 ms] RX PING
+
+[   84795 ms] TX {"status":"OK","command":"PING"}
+[   84795 ms] TX 
+[   84796 ms] RX PING
+
+[   84796 ms] TX {"status":"OK","command":"PING"}
+[   84796 ms] TX 
+[   84796 ms] RX SET LED OFF
+
+[   84796 ms] GPIO2 duty=0
+[   84796 ms] TX {"status":"OK","led":false}
+[   84796 ms] TX 
+[   84796 ms] RX RESET
+
+[   84796 ms] TX {"status":"OK","reset":true}
+[   84796 ms] TX 
+[   85000 ms] RX SET LED OFF
+
+[   85000 ms] GPIO2 duty=0
+[   85000 ms] TX {"status":"OK","led":false}
+[   85000 ms] TX 
+[   85000 ms] RX STATUS
+
+[   85000 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   85000 ms] RX STATUS
+
+[   85000 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   85000 ms] RX STATUS
+
+[   85000 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   85000 ms] RX STATUS
+
+[   85000 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   85001 ms] RX STATUS
+
+[   85001 ms] TX {"status":"OK","led":false,"pwm":0,"heap":287512}
+[   85001 ms] RX SET LED OFF
+
+[   85001 ms] GPIO2 duty=0
+[   85001 ms] TX {"status":"OK","led":false}
+[   85001 ms] TX 
+[   85001 ms] RX RESET
+
+[   85001 ms] TX {"status":"OK","reset":true}
+[   85001 ms] TX 
+[   85202 ms] RX SET LED OFF
+
+[   85202 ms] GPIO2 duty=0
+[   85202 ms] TX {"status":"OK","led":false}
+[   85202 ms] TX 
+[   85203 ms] RX GET TEMP
+
+[   85203 ms] TX {"status":"OK","temperature":24.5
+[   85203 ms] RX GET TEMP
+
+[   85203 ms] TX {"status":"OK","temperature":24.5
+[   85204 ms] RX GET TEMP
+
+[   85204 ms] TX {"status":"OK","temperature":24.5
+[   85204 ms] RX GET TEMP
+
+[   85204 ms] TX {"status":"OK","temperature":24.5
+[   85204 ms] RX GET TEMP
+
+[   85204 ms] TX {"status":"OK","temperature":24.5
+[   85204 ms] RX SET LED OFF
+
+[   85204 ms] GPIO2 duty=0
+[   85204 ms] TX {"status":"OK","led":false}
+[   85204 ms] TX 
+[   85205 ms] RX RESET
+
+[   85205 ms] TX {"status":"OK","reset":true}
+[   85205 ms] TX 
+[   85406 ms] RX SET LED OFF
+
+[   85406 ms] GPIO2 duty=0
+[   85406 ms] TX {"status":"OK","led":false}
+[   85406 ms] TX 
+[   85407 ms] RX SET PWM 10
+
+[   85407 ms] GPIO2 duty=25
+[   85407 ms] TX {"status":"OK","pwm":10}
+[   85407 ms] RX SET PWM 10
+
+[   85407 ms] GPIO2 duty=25
+[   85407 ms] TX {"status":"OK","pwm":10}
+[   85407 ms] RX SET PWM 10
+
+[   85407 ms] GPIO2 duty=25
+[   85407 ms] TX {"status":"OK","pwm":10}
+[   85407 ms] RX SET PWM 10
+
+[   85407 ms] GPIO2 duty=25
+[   85407 ms] TX {"status":"OK","pwm":10}
+[   85407 ms] RX SET PWM 10
+
+[   85407 ms] GPIO2 duty=25
+[   85407 ms] TX {"status":"OK","pwm":10}
+[   85408 ms] RX SET LED OFF
+
+[   85408 ms] GPIO2 duty=0
+[   85408 ms] TX {"status":"OK","led":false}
+[   85408 ms] TX 
+[   85408 ms] RX RESET
+
+[   85408 ms] TX {"status":"OK","reset":true}
+[   85408 ms] TX 
+[   85610 ms] RX SET LED ON
+
+[   85610 ms] GPIO2 duty=255
+[   85610 ms] TX {"status":"OK","led":true}
+[   85610 ms] TX 
+[   85610 ms] RX SET LED OFF
+
+[   85610 ms] GPIO2 duty=0
+[   85610 ms] TX {"status":"OK","led":false}
+[   85610 ms] TX 
+[   85611 ms] RX RESET
+
+[   85611 ms] TX {"status":"OK","reset":true}
+[   85611 ms] TX 
+[   85812 ms] RX SET LED ON
+
+[   85812 ms] GPIO2 duty=255
+[   85812 ms] TX {"status":"OK","led":true}
+[   85812 ms] TX 
+[   85812 ms] RX RESET
+
+[   85812 ms] TX {"status":"OK","reset":true}
+[   85812 ms] TX 
+[   85812 ms] RX STATUS
+
+[   85812 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   85814 ms] RX RESET
+
+[   85814 ms] TX {"status":"OK","reset":true}
+[   85814 ms] TX 
+[   86016 ms] RX GET TEMP
+
+[   86016 ms] TX {"status":"OK","temperature":24.5
+[   86028 ms] RX RESET
+
+[   86028 ms] TX {"status":"OK","reset":true}
+[   86028 ms] TX 
+[   86229 ms] RX PING
+
+[   86229 ms] TX {"status":"OK","command":"PING"}
+[   86229 ms] TX 
+[   86230 ms] RX RESET
+
+[   86230 ms] TX {"status":"OK","reset":true}
+[   86230 ms] TX 
+[   86432 ms] RX STATUS
+
+[   86432 ms] TX {"status":"OK","led":true,"pwm":255,"heap":287512}
+[   86432 ms] RX RESET
+
+[   86432 ms] TX {"status":"OK","reset":true}
+[   86432 ms] TX 
+[   86634 ms] RX NO_RESPONSE
+
+[   87636 ms] RX RESET
+
+[   87636 ms] TX {"status":"OK","reset":true}
+[   87636 ms] TX 

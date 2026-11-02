@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="9" skipped="0" tests="62" time="16.205" timestamp="2026-11-02T15:13:17.341158+00:00" hostname="vm"><testcase classname="tests.test_boundaries" name="test_pwm_valid_boundaries[0]" time="0.202" /><testcase classname="tests.test_boundaries" name="test_pwm_valid_boundaries[1]" time="0.203" /><testcase classname="tests.test_boundaries" name="test_pwm_valid_boundaries[50]" time="0.203" /><testcase classname="tests.test_boundaries" name="test_pwm_valid_boundaries[99]" time="0.244" /><testcase classname="tests.test_boundaries" name="test_pwm_valid_boundaries[100]" time="0.202"><failure message="AssertionError: assert 'ERROR' == 'OK'&#10;  &#10;  - OK&#10;  + ERROR">device = &lt;device.Device object at 0x7f2d955e75c0&gt;, value = 100
+
+    @pytest.mark.parametrize("value", [0, 1, 50, 99, 100])
+    def test_pwm_valid_boundaries(device, value):
+        r = device.command(f"SET PWM {value}")
+&gt;       assert r["status"] == "OK"
+E       AssertionError: assert 'ERROR' == 'OK'
+E         
+E         - OK
+E         + ERROR
+
+tests/test_boundaries.py:6: AssertionError</failure></testcase><testcase classname="tests.test_boundaries" name="test_pwm_invalid_boundaries[-1]" time="0.202" /><testcase classname="tests.test_boundaries" name="test_pwm_invalid_boundaries[101]" time="0.202" /><testcase classname="tests.test_boundaries" name="test_pwm_invalid_boundaries[999]" time="0.202" /><testcase classname="tests.test_firmware_cli" name="test_status_reflects_led_command[led-on]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_status_reflects_led_command[led-off]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_status_reflects_pwm_command[pwm=0]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_status_reflects_pwm_command[pwm=1]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_status_reflects_pwm_command[pwm=50]" time="0.206" /><testcase classname="tests.test_firmware_cli" name="test_status_reflects_pwm_command[pwm=99]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_every_command_returns_one_json_line[PING]" time="0.303" /><testcase classname="tests.test_firmware_cli" name="test_every_command_returns_one_json_line[STATUS]" time="0.304" /><testcase classname="tests.test_firmware_cli" name="test_every_command_returns_one_json_line[GET TEMP]" time="0.203"><failure message="Failed: Invalid JSON for 'GET TEMP': raw='{&quot;status&quot;:&quot;OK&quot;,&quot;temperature&quot;:24.5' (Expecting ',' delimiter: line 1 column 34 (char 33))">device = &lt;device.Device object at 0x7f2d954f0dd0&gt;, command = 'GET TEMP'
+
+    def send(device, command):
+        """Act + Evidence: надіслати команду, надрукувати сирий обмін, розпарсити JSON.
+    
+        Невалідний JSON -&gt; pytest.fail з raw-відповіддю (а не голий JSONDecodeError),
+        щоб у звіті одразу було видно, ЩО саме повернув пристрій.
+        """
+        raw = device.command_raw(command)
+        print(f"TX&gt; {command!r}\nRX&lt; {raw!r}")
+        try:
+&gt;           return json.loads(raw)
+                   ^^^^^^^^^^^^^^^
+
+tests/test_firmware_cli.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.13/json/__init__.py:352: in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+/usr/local/lib/python3.13/json/decoder.py:345: in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;json.decoder.JSONDecoder object at 0x7f2d95d8be00&gt;
+s = '{"status":"OK","temperature":24.5', idx = 0
+
+    def raw_decode(self, s, idx=0):
+        """Decode a JSON document from ``s`` (a ``str`` beginning with
+        a JSON document) and return a 2-tuple of the Python
+        representation and the index in ``s`` where the document ended.
+    
+        This can be used to decode a JSON document from a string that may
+        have extraneous data at the end.
+    
+        """
+        try:
+&gt;           obj, end = self.scan_once(s, idx)
+                       ^^^^^^^^^^^^^^^^^^^^^^
+E           json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 34 (char 33)
+
+/usr/local/lib/python3.13/json/decoder.py:361: JSONDecodeError
+
+During handling of the above exception, another exception occurred:
+
+dut = &lt;device.Device object at 0x7f2d954f0dd0&gt;, command = 'GET TEMP'
+
+    @pytest.mark.parametrize(
+        "command",
+        ["PING", "STATUS", "GET TEMP", "SET LED ON", "SET LED OFF",
+         "SET PWM 10", "RESET", "HELLO"],
+    )
+    def test_every_command_returns_one_json_line(dut, command):
+        """Протокольний контракт: одна команда -&gt; рівно один валідний JSON-рядок
+        з полем status in {OK, ERROR}; після нього в буфері нічого не лишається
+        (немає 'хвостів', які зламають наступний обмін)."""
+&gt;       r = send(dut, command)
+            ^^^^^^^^^^^^^^^^^^
+
+tests/test_firmware_cli.py:133: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+device = &lt;device.Device object at 0x7f2d954f0dd0&gt;, command = 'GET TEMP'
+
+    def send(device, command):
+        """Act + Evidence: надіслати команду, надрукувати сирий обмін, розпарсити JSON.
+    
+        Невалідний JSON -&gt; pytest.fail з raw-відповіддю (а не голий JSONDecodeError),
+        щоб у звіті одразу було видно, ЩО саме повернув пристрій.
+        """
+        raw = device.command_raw(command)
+        print(f"TX&gt; {command!r}\nRX&lt; {raw!r}")
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError as exc:
+&gt;           pytest.fail(f"Invalid JSON for {command!r}: raw={raw!r} ({exc})")
+E           Failed: Invalid JSON for 'GET TEMP': raw='{"status":"OK","temperature":24.5' (Expecting ',' delimiter: line 1 column 34 (char 33))
+
+tests/test_firmware_cli.py:54: Failed</failure></testcase><testcase classname="tests.test_firmware_cli" name="test_every_command_returns_one_json_line[SET LED ON]" time="0.310" /><testcase classname="tests.test_firmware_cli" name="test_every_command_returns_one_json_line[SET LED OFF]" time="0.304" /><testcase classname="tests.test_firmware_cli" name="test_every_command_returns_one_json_line[SET PWM 10]" time="0.303" /><testcase classname="tests.test_firmware_cli" name="test_every_command_returns_one_json_line[RESET]" time="0.303" /><testcase classname="tests.test_firmware_cli" name="test_every_command_returns_one_json_line[HELLO]" time="0.303" /><testcase classname="tests.test_firmware_cli" name="test_reset_from_any_state_restores_safe_outputs[after-led-on]" time="0.204"><failure message="AssertionError: RESET did not restore safe output state&#10;assert (True, 255) == (False, 0)&#10;  &#10;  At index 0 diff: True != False&#10;  &#10;  Full diff:&#10;    (&#10;  -     False,&#10;  -     0,...&#10;  &#10;  ...Full output truncated (3 lines hidden), use '-vv' to show">dut = &lt;device.Device object at 0x7f2d95343ad0&gt;, setup_commands = ['SET LED ON']
+
+    @pytest.mark.parametrize(
+        "setup_commands",
+        [["SET LED ON"], ["SET PWM 1"], ["SET PWM 50"], ["SET PWM 99"], ["SET LED OFF"]],
+        ids=["after-led-on", "after-pwm-1", "after-pwm-50", "after-pwm-99", "already-safe"],
+    )
+    def test_reset_from_any_state_restores_safe_outputs(dut, setup_commands):
+        """Бонус, Req 7 (stateful): RESET з будь-якого стану виходів -&gt; LED OFF / PWM 0,
+        і STATUS це підтверджує (відповідь 'reset: true' сама по собі не є доказом)."""
+        for cmd in setup_commands:
+            assert send(dut, cmd)["status"] == "OK"
+    
+        r = send(dut, "RESET")
+        assert r["status"] == "OK"
+    
+&gt;       assert snapshot(dut) == (False, 0), "RESET did not restore safe output state"
+E       AssertionError: RESET did not restore safe output state
+E       assert (True, 255) == (False, 0)
+E         
+E         At index 0 diff: True != False
+E         
+E         Full diff:
+E           (
+E         -     False,
+E         -     0,...
+E         
+E         ...Full output truncated (3 lines hidden), use '-vv' to show
+
+tests/test_firmware_cli.py:155: AssertionError</failure></testcase><testcase classname="tests.test_firmware_cli" name="test_reset_from_any_state_restores_safe_outputs[after-pwm-1]" time="0.205"><failure message="AssertionError: RESET did not restore safe output state&#10;assert (True, 2) == (False, 0)&#10;  &#10;  At index 0 diff: True != False&#10;  &#10;  Full diff:&#10;    (&#10;  -     False,&#10;  +     True,...&#10;  &#10;  ...Full output truncated (5 lines hidden), use '-vv' to show">dut = &lt;device.Device object at 0x7f2d953937d0&gt;, setup_commands = ['SET PWM 1']
+
+    @pytest.mark.parametrize(
+        "setup_commands",
+        [["SET LED ON"], ["SET PWM 1"], ["SET PWM 50"], ["SET PWM 99"], ["SET LED OFF"]],
+        ids=["after-led-on", "after-pwm-1", "after-pwm-50", "after-pwm-99", "already-safe"],
+    )
+    def test_reset_from_any_state_restores_safe_outputs(dut, setup_commands):
+        """Бонус, Req 7 (stateful): RESET з будь-якого стану виходів -&gt; LED OFF / PWM 0,
+        і STATUS це підтверджує (відповідь 'reset: true' сама по собі не є доказом)."""
+        for cmd in setup_commands:
+            assert send(dut, cmd)["status"] == "OK"
+    
+        r = send(dut, "RESET")
+        assert r["status"] == "OK"
+    
+&gt;       assert snapshot(dut) == (False, 0), "RESET did not restore safe output state"
+E       AssertionError: RESET did not restore safe output state
+E       assert (True, 2) == (False, 0)
+E         
+E         At index 0 diff: True != False
+E         
+E         Full diff:
+E           (
+E         -     False,
+E         +     True,...
+E         
+E         ...Full output truncated (5 lines hidden), use '-vv' to show
+
+tests/test_firmware_cli.py:155: AssertionError</failure></testcase><testcase classname="tests.test_firmware_cli" name="test_reset_from_any_state_restores_safe_outputs[after-pwm-50]" time="0.204"><failure message="AssertionError: RESET did not restore safe output state&#10;assert (True, 127) == (False, 0)&#10;  &#10;  At index 0 diff: True != False&#10;  &#10;  Full diff:&#10;    (&#10;  -     False,&#10;  -     0,...&#10;  &#10;  ...Full output truncated (3 lines hidden), use '-vv' to show">dut = &lt;device.Device object at 0x7f2d953ab2a0&gt;, setup_commands = ['SET PWM 50']
+
+    @pytest.mark.parametrize(
+        "setup_commands",
+        [["SET LED ON"], ["SET PWM 1"], ["SET PWM 50"], ["SET PWM 99"], ["SET LED OFF"]],
+        ids=["after-led-on", "after-pwm-1", "after-pwm-50", "after-pwm-99", "already-safe"],
+    )
+    def test_reset_from_any_state_restores_safe_outputs(dut, setup_commands):
+        """Бонус, Req 7 (stateful): RESET з будь-якого стану виходів -&gt; LED OFF / PWM 0,
+        і STATUS це підтверджує (відповідь 'reset: true' сама по собі не є доказом)."""
+        for cmd in setup_commands:
+            assert send(dut, cmd)["status"] == "OK"
+    
+        r = send(dut, "RESET")
+        assert r["status"] == "OK"
+    
+&gt;       assert snapshot(dut) == (False, 0), "RESET did not restore safe output state"
+E       AssertionError: RESET did not restore safe output state
+E       assert (True, 127) == (False, 0)
+E         
+E         At index 0 diff: True != False
+E         
+E         Full diff:
+E           (
+E         -     False,
+E         -     0,...
+E         
+E         ...Full output truncated (3 lines hidden), use '-vv' to show
+
+tests/test_firmware_cli.py:155: AssertionError</failure></testcase><testcase classname="tests.test_firmware_cli" name="test_reset_from_any_state_restores_safe_outputs[after-pwm-99]" time="0.203"><failure message="AssertionError: RESET did not restore safe output state&#10;assert (True, 252) == (False, 0)&#10;  &#10;  At index 0 diff: True != False&#10;  &#10;  Full diff:&#10;    (&#10;  -     False,&#10;  -     0,...&#10;  &#10;  ...Full output truncated (3 lines hidden), use '-vv' to show">dut = &lt;device.Device object at 0x7f2d953ab8c0&gt;, setup_commands = ['SET PWM 99']
+
+    @pytest.mark.parametrize(
+        "setup_commands",
+        [["SET LED ON"], ["SET PWM 1"], ["SET PWM 50"], ["SET PWM 99"], ["SET LED OFF"]],
+        ids=["after-led-on", "after-pwm-1", "after-pwm-50", "after-pwm-99", "already-safe"],
+    )
+    def test_reset_from_any_state_restores_safe_outputs(dut, setup_commands):
+        """Бонус, Req 7 (stateful): RESET з будь-якого стану виходів -&gt; LED OFF / PWM 0,
+        і STATUS це підтверджує (відповідь 'reset: true' сама по собі не є доказом)."""
+        for cmd in setup_commands:
+            assert send(dut, cmd)["status"] == "OK"
+    
+        r = send(dut, "RESET")
+        assert r["status"] == "OK"
+    
+&gt;       assert snapshot(dut) == (False, 0), "RESET did not restore safe output state"
+E       AssertionError: RESET did not restore safe output state
+E       assert (True, 252) == (False, 0)
+E         
+E         At index 0 diff: True != False
+E         
+E         Full diff:
+E           (
+E         -     False,
+E         -     0,...
+E         
+E         ...Full output truncated (3 lines hidden), use '-vv' to show
+
+tests/test_firmware_cli.py:155: AssertionError</failure></testcase><testcase classname="tests.test_firmware_cli" name="test_reset_from_any_state_restores_safe_outputs[already-safe]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[alpha]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[float]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[plus-sign]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[exponent]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[hex]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[two-args]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[minus-zero]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[missing-arg]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[led-bad-arg]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[lowercase]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[no-verb]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_negative_invalid_input_rejected_without_side_effects[empty-line]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[-1-reject]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[0-accept]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[1-accept]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[99-accept]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[100-accept]" time="0.204"><failure message="AssertionError: valid 100 rejected: {'status': 'ERROR', 'code': 'INVALID_VALUE'}&#10;assert {'status': 'E...NVALID_VALUE'} == {'status': 'OK', 'pwm': 100}&#10;  &#10;  Differing items:&#10;  {'status': 'ERROR'} != {'status': 'OK'}&#10;  Left contains 1 more item:&#10;  {'code': 'INVALID_VALUE'}&#10;  Right contains 1 more item:&#10;  {'pwm': 100}...&#10;  &#10;  ...Full output truncated (10 lines hidden), use '-vv' to show">dut = &lt;device.Device object at 0x7f2d953c0d70&gt;, value = 100, accepted = True
+
+    @pytest.mark.parametrize(
+        "value, accepted",
+        [
+            # межі робочого діапазону 0..100 (Req 5/6)
+            (-1, False), (0, True), (1, True), (99, True), (100, True), (101, False),
+            # межі типу int32 на ESP32: переповнення не має "загортати" значення у 0..100
+            (2147483647, False),          # INT32_MAX
+            (2147483648, False),          # INT32_MAX + 1
+            (4294967296, False),          # 2^32       -&gt; 0   при обрізанні до 32 біт
+            (4294967396, False),          # 2^32 + 100 -&gt; 100 при обрізанні до 32 біт
+        ],
+        ids=lambda p: str(p) if not isinstance(p, bool) else ("accept" if p else "reject"),
+    )
+    def test_boundary_pwm_range_and_int32_limits(dut, value, accepted):
+        """Req 5 + 6: значення на межах і біля меж; для кожного перевіряємо і відповідь, і STATUS."""
+        send(dut, f"SET PWM {PWM_PRESET}")
+        before = snapshot(dut)
+    
+        r = send(dut, f"SET PWM {value}")
+    
+        if accepted:
+&gt;           assert r == {"status": "OK", "pwm": value}, f"valid {value} rejected: {r}"
+E           AssertionError: valid 100 rejected: {'status': 'ERROR', 'code': 'INVALID_VALUE'}
+E           assert {'status': 'E...NVALID_VALUE'} == {'status': 'OK', 'pwm': 100}
+E             
+E             Differing items:
+E             {'status': 'ERROR'} != {'status': 'OK'}
+E             Left contains 1 more item:
+E             {'code': 'INVALID_VALUE'}
+E             Right contains 1 more item:
+E             {'pwm': 100}...
+E             
+E             ...Full output truncated (10 lines hidden), use '-vv' to show
+
+tests/test_firmware_cli.py:215: AssertionError</failure></testcase><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[101-reject]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[2147483647-reject]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[2147483648-reject]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[4294967296-reject]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_boundary_pwm_range_and_int32_limits[4294967396-reject]" time="0.204" /><testcase classname="tests.test_firmware_cli" name="test_timeout_is_finite_and_link_recovers[0.2s]" time="0.403" /><testcase classname="tests.test_firmware_cli" name="test_timeout_is_finite_and_link_recovers[0.5s]" time="0.703" /><testcase classname="tests.test_firmware_cli" name="test_timeout_is_finite_and_link_recovers[1.0s]" time="1.205" /><testcase classname="tests.test_firmware_cli" name="test_timeout_response_latency_below_client_timeout[PING]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_timeout_response_latency_below_client_timeout[STATUS]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_timeout_response_latency_below_client_timeout[GET TEMP]" time="0.203" /><testcase classname="tests.test_firmware_cli" name="test_timeout_response_latency_below_client_timeout[SET PWM 10]" time="0.205" /><testcase classname="tests.test_relay" name="test_led_on_off" time="0.202" /><testcase classname="tests.test_relay" name="test_reset_restores_safe_state" time="0.202"><failure message="assert 255 == 0">device = &lt;device.Device object at 0x7f2d953c1f90&gt;
+
+    def test_reset_restores_safe_state(device):
+        device.command("SET LED ON")
+        device.command("RESET")
+        status = device.command("STATUS")
+&gt;       assert status["pwm"] == 0
+E       assert 255 == 0
+
+tests/test_relay.py:9: AssertionError</failure></testcase><testcase classname="tests.test_sensor" name="test_temperature_is_valid_json" time="0.202"><failure message="AssertionError: Invalid JSON from device: '{&quot;status&quot;:&quot;OK&quot;,&quot;temperature&quot;:24.5'">self = &lt;device.Device object at 0x7f2d953c3610&gt;, command = 'GET TEMP'
+
+    def command(self, command):
+        raw = self.command_raw(command)
+        try:
+&gt;           return json.loads(raw)
+                   ^^^^^^^^^^^^^^^
+
+device.py:27: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.13/json/__init__.py:352: in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+/usr/local/lib/python3.13/json/decoder.py:345: in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;json.decoder.JSONDecoder object at 0x7f2d95d8be00&gt;
+s = '{"status":"OK","temperature":24.5', idx = 0
+
+    def raw_decode(self, s, idx=0):
+        """Decode a JSON document from ``s`` (a ``str`` beginning with
+        a JSON document) and return a 2-tuple of the Python
+        representation and the index in ``s`` where the document ended.
+    
+        This can be used to decode a JSON document from a string that may
+        have extraneous data at the end.
+    
+        """
+        try:
+&gt;           obj, end = self.scan_once(s, idx)
+                       ^^^^^^^^^^^^^^^^^^^^^^
+E           json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 34 (char 33)
+
+/usr/local/lib/python3.13/json/decoder.py:361: JSONDecodeError
+
+The above exception was the direct cause of the following exception:
+
+device = &lt;device.Device object at 0x7f2d953c3610&gt;
+
+    def test_temperature_is_valid_json(device):
+&gt;       r = device.command("GET TEMP")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_sensor.py:2: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;device.Device object at 0x7f2d953c3610&gt;, command = 'GET TEMP'
+
+    def command(self, command):
+        raw = self.command_raw(command)
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError as e:
+&gt;           raise AssertionError(f"Invalid JSON from device: {raw!r}") from e
+E           AssertionError: Invalid JSON from device: '{"status":"OK","temperature":24.5'
+
+device.py:29: AssertionError</failure></testcase><testcase classname="tests.test_status" name="test_ping" time="0.202" /><testcase classname="tests.test_status" name="test_status" time="0.202" /><testcase classname="tests.test_timeout" name="test_no_response_becomes_timeout" time="1.203" /></testsuite></testsuites>

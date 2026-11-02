@@ -1,0 +1,28 @@
+[       0 ms] TX {"status":"READY"}
+[       0 ms] TX 
+[   33853 ms] RX GET TEMP
+
+[   33853 ms] TX {"status":"ERROR","code":"SENSOR_UNAVAILABLE"}
+[   33853 ms] TX 
+[   33854 ms] RX RESET
+
+[   33854 ms] TX {"status":"OK","reset":true}
+[   33854 ms] TX 
+[   34054 ms] RX SET LED OFF
+
+[   34054 ms] GPIO2 duty=0
+[   34054 ms] TX {"status":"OK","led":false}
+[   34054 ms] TX 
+[   34055 ms] RX GET TEMP
+
+[   34055 ms] TX {"status":"ERROR","code":"SENSOR_UNAVAILABLE"}
+[   34055 ms] TX 
+[   34156 ms] RX SET LED OFF
+
+[   34156 ms] GPIO2 duty=0
+[   34156 ms] TX {"status":"OK","led":false}
+[   34156 ms] TX 
+[   34157 ms] RX RESET
+
+[   34157 ms] TX {"status":"OK","reset":true}
+[   34157 ms] TX 
